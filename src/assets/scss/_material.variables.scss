@@ -1,19 +1,19 @@
 @import '~@angular/material/theming/';
 $test: (
-  50: #e0f2f1,
-  100: #b2dfdb,
-  200: #80cbc4,
-  300: #4db6ac,
-  400: #26a69a,
-  500: #009688,
-  600: #00897b,
-  700: #00796b,
-  800: #00695c,
-  900: #004d40,
-  A100: #a7ffeb,
-  A200: #64ffda,
-  A400: #1de9b6,
-  A700: #00bfa5,
+  50: #0199d9,
+  100: #0199d9,
+  200: #0199d9,
+  300: #0199d9,
+  400: #0199d9,
+  500: #0199d9,
+  600: #0199d9,
+  700: #0199d9,
+  800: #0199d9,
+  900: #0199d9,
+  A100: #0199d9,
+  A200: #0199d9,
+  A400: #0199d9,
+  A700: #0199d9,
   contrast: (
     50: $black-87-opacity,
     100: $black-87-opacity,
@@ -32,7 +32,7 @@ $test: (
   )
 );
 
-$primary: mat-palette($mat-purple,800);
+$primary: mat-palette($test,800);
 $accent:  mat-palette($mat-cyan);
 $warn: mat-palette($mat-red,600);
 $theme: mat-light-theme($primary, $accent, $warn);
