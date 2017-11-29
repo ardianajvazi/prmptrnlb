@@ -1,0 +1,28 @@
+
+.drawer-container {
+  height: 100%;
+}
+
+.drawer-content {
+  padding: 20px;
+  min-height: 100%;
+  overflow: scroll;
+  margin-top: 134px;
+  background-color: #fff;
+}
+.drawer-width {
+  width: 250px;
+  box-shadow: 2px 2px 2px 2px #efefef;
+  z-index: 8;
+}
+
+.top-toolbar {
+  z-index: 10;
+  position: fixed;
+  min-height: 130px;
+  // background-color: #f0f9fd !important;
+}
+.mat-drawer {
+  position: fixed !important;
+  top: 130px !important;
+}
