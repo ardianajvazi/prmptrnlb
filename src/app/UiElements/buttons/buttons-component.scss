@@ -1,76 +1,31 @@
-[mat-raised-button], [mat-fab], [mat-mini-fab], [mat-button], [mat-icon-button] {
+.button-container-padding {
+  padding: 20px;
+}
+
+[mat-raised-button], [mat-button] {
   font-size: 19px;
+  font-family: 'Roboto'!important;
+  font-weight: medium !important;
+  height: 42px !important;
   &[mat-button-sm] {
     font-size: 19px;
-    // line-height: 30px;
-    // padding: 0 8px;
   }
 }
-[mat-raised-button] {
+
+.primary-raised-button {
   color: #fff !important;
-  background-color: #DD6162;
+  background-color: #DD6162 !important;
 }
 
-[mat-icon-button] {
-  &[mat-button-sm] {
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    mat-icon {
-      font-size: 20px;
-      line-height: 20px;
-    }
-  }
+.raised-button-disable {
+  color: #fff !important;
+}
+.secondary-raised-button {
+  color: #63666A !important;
+  background-color: #e0e0e0 !important;
 }
 
-
-// .mat-raised-button.primaryRaisedButton {
-//   color: #fff !important;
-//   background-color: #DD6162;
-//   height: 42px !important;
-//   font-family: 'Roboto'!important;
-//   font-weight: medium !important;
-//   font-size: 19px !important;
-// }
-// .mat-raised-button.secondaryRaisedButton {
-//   color: #63666A !important;
-//   background-color: #e0e0e0;
-//   height: 42px !important;
-//   font-family: 'Roboto'!important;
-//   font-weight: medium !important;
-//   font-size: 19px !important;
-// }
-// .mat-flat-button.flatButton{
-//   color: #fff !important;
-//   background-color: #DD6162;
-//   height: 42px !important;
-//   font-family: 'Roboto'!important;
-//   font-weight: medium !important;
-//   font-size: 19px !important;
-// }
-// .mat-button.flatButton {
-//   color:  #DD6162!important;
-//   background-color: #fff;
-//   height: 42px !important;
-//   font-family: 'Roboto'!important;
-//   font-weight: medium !important;
-//   font-size: 19px !important;
-// }
-//
-// .buttonDisable {
-//   color: #c1c1c1 !important;
-//   // background-color: #63666A;
-//   height: 42px !important;
-//   font-family: 'Roboto'!important;
-//   font-weight: medium !important;
-//   font-size: 19px !important;
-// }
-// .mat-raised-button.raisedButtonDisable {
-//   // color: #c1c1c1 !important;
-//   // background-color: #fff !important;
-//   height: 42px !important;
-//   font-family: 'Roboto'!important;
-//   font-weight: medium !important;
-//   font-size: 19px !important;
-//
-// }
+.flat-button {
+  color:  #DD6162 !important;
+  background-color: #fff !important;
+}
