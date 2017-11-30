@@ -57,17 +57,66 @@ import { RoutingModule } from "./app-routing.module";
 // The Components We create.
 import { NavComponent } from './nav/nav-component'
 import { HomeComponent } from './home/home-component' // using this for my testing.
-//
+
+// Using Library
 import { UsingLibraryComponent } from './UsingLibrary/usingLibrary-component';
-//
-import { StyleComponent } from './style/style-component';
-//
+import { BuildingPrototypesComponent } from './UsingLibrary/buildingPrototypes/buildingPrototypes-component';
+import { ForWhoComponent } from './UsingLibrary/forWho/forWho-component';
+import { HowToUpdateComponent } from './UsingLibrary/howToUpdate/howToUpdate-component';
+
+// Styles
+import { StyleComponent } from './Style/style-component';
+import { ColorComponent } from './Style/color/color-component';
+import { DashSeparatorComponent } from './Style/dashSeparator/dashSeparator-component';
+import { GradientComponent } from './Style/gradient/gradient-component';
+import { IconsComponent } from './Style/icons/icons-component';
+import { LogoComponent } from './Style/logo/logo-component';
+import { TypographyComponent } from './Style/typography/typography-component';
+import { VoiceToneComponent } from './Style/voiceTone/voiceTone-component';
+import { WritingComponent } from './Style/writing/writing-component';
+
+
+// Guidelines
 import { GuidelinesComponent } from './Guidelines/guidelines-component';
-//
-import { PatternsComponent } from './patterns/patterns-component';
-//
+import { AccessibilityComponent } from './Guidelines/accessibility/accessibility-component';
+import { FooterComponent } from './Guidelines/footer/footer-component';
+import { GridSystemComponent } from './Guidelines/gridSystem/gridSystem-component';
+import { PageHierarchyComponent } from './Guidelines/pageHierarchy/pageHierarchy-component';
+import { PageLayoutsComponent } from './Guidelines/pageLayouts/pageLayouts-component';
+import { PrimeNavigationComponent } from './Guidelines/primeNavigation/primeNavigation-component';
+
+// Patterns
+import { PatternsComponent } from './Patterns/patterns-component';
+import { AlertsComponent } from './Patterns/alerts/alerts-component';
+import { BreadcrumbsComponent } from './Patterns/breadcrumbs/breadcrumbs-component';
+import { DataFormatComponent } from './Patterns/dataFormat/dataFormat-component';
+import { EmptyStatesComponent } from './Patterns/emptyStates/emptyStates-component';
+import { LoadingComponent } from './Patterns/loading/loading-component';
+import { NotificationsComponent } from './Patterns/notifications/notifications-component';
+import { PaginationComponent } from './Patterns/pagination/pagination-component';
+import { ProgressActivityComponent } from './Patterns/progressActivity/progressActivity-component';
+import { SearchComponent } from './Patterns/search/search-component';
+import { SettingsComponent } from './Patterns/settings/settings-component';
+import { TabsComponent } from './Patterns/tabs/tabs-component';
+import { TooltipsComponent } from './Patterns/tooltips/tooltips-component';
+import { ValidationComponent } from './Patterns/validation/validation-component';
+import { WizardStepperComponent } from './Patterns/wizardStepper/wizardStepper-component';
+
+// UI Elements
 import { UiElementsComponent } from './UiElements/uiElements-component';
 import { ButtonsComponent } from './UiElements/buttons/buttons-component';
+import { CarouselComponent } from './UiElements/carousel/carousel-component';
+import { CardsComponent } from './UiElements/cards/cards-component';
+import { ChartsGraphsComponent } from './UiElements/chartsGraphs/chartsGraphs-component';
+import { ChipsComponent } from './UiElements/chips/chips-component';
+import { DatePickerComponent } from './UiElements/datePicker/datePicker-component';
+import { DialogsComponent } from './UiElements/dialogs/dialogs-component';
+import { ExpansionPanelsComponent } from './UiElements/expansionPanels/expansionPanels-component';
+import { GridListsComponent } from './UiElements/gridLists/gridLists-component';
+import { SnackbarsComponent } from './UiElements/snackbars/snackbars-component';
+import { TablesComponent } from './UiElements/tables/tables-component';
+import { TextFieldsComponent } from './UiElements/textFields/textFields-component';
+import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
 
 // This is where we import the components we pull in from material design and more so we can use them in our app.
 @NgModule({
@@ -122,11 +171,54 @@ import { ButtonsComponent } from './UiElements/buttons/buttons-component';
     NavComponent,
     HomeComponent,
     UsingLibraryComponent,
+      BuildingPrototypesComponent,
+      ForWhoComponent,
+      HowToUpdateComponent,
     StyleComponent,
+      ColorComponent,
+      DashSeparatorComponent,
+      GradientComponent,
+      IconsComponent,
+      LogoComponent,
+      TypographyComponent,
+      VoiceToneComponent,
+      WritingComponent,
     GuidelinesComponent,
+      AccessibilityComponent,
+      FooterComponent,
+      GridSystemComponent,
+      PageHierarchyComponent,
+      PageLayoutsComponent,
+      PrimeNavigationComponent,
     PatternsComponent,
+      AlertsComponent,
+      BreadcrumbsComponent,
+      DataFormatComponent,
+      EmptyStatesComponent,
+      LoadingComponent,
+      NotificationsComponent,
+      PaginationComponent,
+      ProgressActivityComponent,
+      SearchComponent,
+      SettingsComponent,
+      TabsComponent,
+      TooltipsComponent,
+      ValidationComponent,
+      WizardStepperComponent,
     UiElementsComponent,
-    ButtonsComponent
+      ButtonsComponent,
+      CarouselComponent,
+      CardsComponent,
+      ChartsGraphsComponent,
+      ChipsComponent,
+      DatePickerComponent,
+      DialogsComponent,
+      ExpansionPanelsComponent,
+      GridListsComponent,
+      SnackbarsComponent,
+      TablesComponent,
+      TextFieldsComponent,
+      ToolbarsComponent
 	],
 	bootstrap: [MyAppComponent],
 	providers:[
