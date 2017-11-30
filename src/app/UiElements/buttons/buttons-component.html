@@ -1,5 +1,5 @@
 <!-- BUTTONS -->
-<section class="pattern">
+<section class="buttons-container">
   <a name="buttons"></a>
   <h1>Buttons</h1>
   <p class="lead">Buttons communicate the action that will occur when the user touches them. We have a number to choose from.</p>
@@ -52,12 +52,7 @@
         Disabled
       </button>
     </div>
-
-    <div class="col-xs-12 col-sm-2">
-
-    </div>
   </div>
-  <br><br>
 
   <button mat-button
     data-toggle="collapse" data-target="#button-code-1"
@@ -65,48 +60,18 @@
     Show Code
   </button>
 
-  <div class="collapse" id="button-code-1">
-    <div class="card card-body">
-      <h4>The Code</h4>
-      <p><a href="">View Material Components Web Documentation</a></p>
-<!--
-      <pre><code class="language-markup">
-        <script type="prism-html-markup">
-<button class="mdc-button mdc-button--raised">
-Raised button
-</button>
-
-<button class="mdc-button">
-Flat button
-</button>
-
-<button class="mdc-button mdc-button--raised" disabled>
-Raised button disabled
-</button>
-
-<button class="mdc-button" disabled>
-Flat button disabled
-</button>
-
-<button class="mdc-button mdc-button--raised">
-<i class="material-icons mdc-button__icon">favorite</i>
-Icon Button
-</button>
-
-<button class="mdc-fab material-icons" aria-label="Favorite">
-<span class="mdc-fab__icon">
-favorite
-</span>
-</button>
-
-<i class="mdc-icon-toggle material-icons" role="button" aria-pressed="false"
-aria-label="Add to favorites" tabindex="0"
-data-toggle-on='{"label": "Remove from favorites", "content": "favorite"}'
-data-toggle-off='{"label": "Add to favorites", "content": "favorite_border"}'>
-favorite_border
-</i>
-        </script>
-      </code></pre> -->
+  <div class="row" class="col-md-12">
+    <div class="collapse" id="button-code-1">
+      <div>
+        <mat-tab-group class="col-md-8">
+          <mat-tab label="HTML">
+            <prism-block [code]="htmlCode" [language]="'html'"></prism-block>
+          </mat-tab>
+          <mat-tab label="CSS">
+            <prism-block [code]="cssCode2" [language]="'css'"></prism-block>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
     </div>
   </div>
 </section>
