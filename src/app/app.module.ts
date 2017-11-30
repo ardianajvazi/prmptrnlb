@@ -42,7 +42,8 @@ import { MatAutocompleteModule,
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatStepperModule, } from '@angular/material';
+  MatStepperModule
+} from '@angular/material';
 // End of Material Design Components
 import 'hammerjs';
 import 'prismjs/prism';
@@ -54,16 +55,19 @@ import { MyAppComponent} from './app.component';
 import { RoutingModule } from "./app-routing.module";
 
 // The Components We create.
-import { HomeComponent } from './home/home-component'
 import { NavComponent } from './nav/nav-component'
-import { StyleGuideComponent } from './styleGuide/styleGuide-component';
-import { StylesComponent } from './styles/styles-component';
-import { LayoutsComponent } from './layouts/layouts-component';
-import { ComponentsComponent } from './components/components-component';
-import { NavigationComponent } from './navigation/navigation-component';
+import { HomeComponent } from './home/home-component' // using this for my testing.
+//
+import { UsingLibraryComponent } from './UsingLibrary/usingLibrary-component';
+//
+import { StyleComponent } from './style/style-component';
+//
+import { GuidelinesComponent } from './Guidelines/guidelines-component';
+//
 import { PatternsComponent } from './patterns/patterns-component';
-import { UsabilityComponent } from './usability/usability-component';
-
+//
+import { UiElementsComponent } from './UiElements/uiElements-component';
+import { ButtonsComponent } from './UiElements/buttons/buttons-component';
 
 // This is where we import the components we pull in from material design and more so we can use them in our app.
 @NgModule({
@@ -115,15 +119,14 @@ import { UsabilityComponent } from './usability/usability-component';
 	declarations: [
 		MyAppComponent,
     PrismComponent,
-    HomeComponent,
     NavComponent,
-    StyleGuideComponent,
-    StylesComponent,
-    LayoutsComponent,
-    ComponentsComponent,
-    NavigationComponent,
+    HomeComponent,
+    UsingLibraryComponent,
+    StyleComponent,
+    GuidelinesComponent,
     PatternsComponent,
-    UsabilityComponent
+    UiElementsComponent,
+    ButtonsComponent
 	],
 	bootstrap: [MyAppComponent],
 	providers:[

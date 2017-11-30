@@ -1,13 +1,25 @@
 @import "material.variables";
+@import "bootstrap.scss";
+// Core Variables and Mixins
+@import "app.variables";
+@import "mixins";
+// Core Styles
+@import "core";
+// @import "material";
 
 // Our custom classes these get loaded from our app/<name-of-component> folders
 @import "../../app/nav/nav-component.scss";
 @import "../../app/home/home-component.scss";
 
-@import "../../app/styleGuide/styleGuide-component.scss";
-@import "../../app/styles/styles-component.scss";
-@import "../../app/layouts/layouts-component.scss";
-@import "../../app/components/components-component.scss";
-@import "../../app/navigation/navigation-component.scss";
+@import "../../app/UsingLibrary/usingLibrary-component.scss";
+@import "../../app/Style/style-component.scss";
+@import "../../app/Guidelines/guidelines-component.scss";
 @import "../../app/patterns/patterns-component.scss";
-@import "../../app/usability/usability-component.scss";
+@import "../../app/UiElements/uiElements-component.scss";
+
+body {
+  margin: 0;
+}
+my-app {
+  font-family: 'Lora', serif;
+}

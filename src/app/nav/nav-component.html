@@ -16,245 +16,86 @@
     <mat-drawer #sidenavDrawer opened mode="side" class="drawer-width">
       <mat-nav-list class="sidenav-padding">
 
-        <!-- Style Guide Web -->
+        <!-- Using Library -->
         <div>
-          <mat-list-item [routerLink]="['/style-guide']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#overviewCollapse">
-            Style Guide Web
+          <mat-list-item [routerLink]="['/library']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#libraryCollapse">
+            Using The Library
           </mat-list-item>
-          <div id="overviewCollapse" class="collapse">
+          <div id="libraryCollapse" class="collapse">
             <mat-list-item class="navLinksHover">
-                <a scrollTo href="#overview" class="navLinks">
-                  - Overview
-                </a>
+              - Who This Is For
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a scrollTo href="#designers-and-prototypers" class="navLinks">
-                  - Designers &amp; Prototypers
-                </a>
+              - How To Make Updates
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  scrollTo href="#how-to-update-this" class="navLinks">
-                  - How To Update This
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  scrollTo href="#prototyping" class="navLinks">
-                  - Prototyping
-                </a>
+              - Building Prototypes
             </mat-list-item>
           </div>
         </div>
-        <!-- End Style Guide Web -->
+        <!-- End of Using Library -->
 
         <!-- Style -->
         <div>
-          <mat-list-item [routerLink]="['/styles']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#styleCollapse">
+          <mat-list-item [routerLink]="['/style']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#styleCollapse">
             Style
           </mat-list-item>
           <div id="styleCollapse" class="collapse">
             <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Color
-                </a>
+              - Color
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Gradient
-                </a>
+              - Gradient
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Icons
-                </a>
+              - Dash Separator
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Images
-                </a>
+              - Icons
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Logos
-                </a>
+              - Logo
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Typorgraphy
-                </a>
+              - Typorgraphy
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Voice &amp; Tone
-                </a>
+              - Voice &amp; Tone
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Writing
-                </a>
+              - Writing
             </mat-list-item>
           </div>
         </div>
         <!-- End Style -->
 
-        <!-- Layout -->
+        <!-- Guidelines -->
         <div>
-          <mat-list-item [routerLink]="['/layouts']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#layoutCollapse">
-            Layout
+          <mat-list-item [routerLink]="['/guidelines']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#guidelinesCollapse">
+            Guidelines
           </mat-list-item>
-          <div id="layoutCollapse" class="collapse">
+          <div id="guidelinesCollapse" class="collapse">
             <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Grid system
-                </a>
+              - Accessibility
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Page templates
-                </a>
+              - Grid System
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Page Hierarchy
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Page Layouts
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Prime Navigation
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Footer
             </mat-list-item>
           </div>
         </div>
-        <!-- End Layout -->
-
-        <!-- Components -->
-        <div>
-          <mat-list-item [routerLink]="['/components']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#componentsCollapse">
-            Components
-          </mat-list-item>
-          <div id="componentsCollapse" class="collapse">
-            <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Cards
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Button &amp; UI controls
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Chips
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Data tables
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Dialogs
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Expansion panels
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Grid lists
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Date picker
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Progress &amp; activity
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Snackbars
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Text fields
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Toolbars
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Tooltips
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Widget &amp; carousel
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Charts &amp; graphs
-                </a>
-            </mat-list-item>
-          </div>
-        </div>
-        <!-- End Overview -->
-
-        <!-- Navigation -->
-        <div>
-          <mat-list-item [routerLink]="['/navigation']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#navigationCollapse">
-            Navigation
-          </mat-list-item>
-          <div id="navigationCollapse" class="collapse">
-            <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Breadcrumbs
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Drawers
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Filters
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Footer
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Menus
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Pagination
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Stepper
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Tabs
-                </a>
-            </mat-list-item>
-            <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Toolbars
-                </a>
-            </mat-list-item>
-          </div>
-        </div>
-        <!-- End Navigation -->
+        <!-- End of Guidelines -->
 
         <!-- Patterns -->
         <div>
@@ -263,63 +104,103 @@
           </mat-list-item>
           <div id="patternsCollapse" class="collapse">
             <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Confirmation
-                </a>
+              - Alerts
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Data formats
-                </a>
+              - Progress & Activity
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Empty states
-                </a>
+              - Breadcrumbs
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Errors
-                </a>
+              - Data Format
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Loading
-                </a>
+              - Empty States
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Notifications
-                </a>
+              - Loading
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Search
-                </a>
+              - Notifications
             </mat-list-item>
             <mat-list-item class="navLinksHover">
-                <a  class="navLinks">
-                  - Settings
-                </a>
+              - Pagination
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Search
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Settings
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Snackbars
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Tabs
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Tooltips
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Validation
+            </mat-list-item>
+            <mat-list-item class="navLinksHover">
+              - Wizard stepper
             </mat-list-item>
           </div>
         </div>
         <!-- End Patterns -->
 
-        <!-- Usability -->
+        <!-- UI Elements -->
         <div>
-          <mat-list-item [routerLink]="['/usability']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#usabilityCollapse">
-            Usability
+          <mat-list-item [routerLink]="['/ui-elements']" data-toggle="collapse" data-parent=".sidenav-padding" data-target="#uiElementsCollapse">
+            UI Elements
           </mat-list-item>
-          <div id="usabilityCollapse" class="collapse">
-            <mat-list-item class="navLinksHover">
-                <a class="navLinks">
-                  - Accessibility
-                </a>
+          <div id="uiElementsCollapse" class="collapse">
+            <mat-list-item class="navLinksHover" [routerLink]="['/buttons']">
+              - Buttons
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/cards']">
+              - Cards
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/arousel']">
+              - Carousel
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/charts-graphs']">
+              - Charts & Graphs
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/chips']">
+              - Chips
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/data-tables']">
+              - Data tables
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/date-picker']">
+              - Date picker
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/dialog']">
+              - Dialogs
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/expansion-pannels']">
+              - Expansion panels
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/grid-list']">
+              - Grid lists
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/snackbars']">
+              - Snackbars
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/text-fields']">
+              - Text fields
+            </mat-list-item>
+            <mat-list-item class="navLinksHover" [routerLink]="['/toolbars']">
+              - Toolbars
             </mat-list-item>
           </div>
         </div>
-        <!-- End Usability -->
+        <!-- End UI Elements -->
+
 
       </mat-nav-list>
     </mat-drawer>

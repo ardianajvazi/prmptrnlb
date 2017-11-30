@@ -1,19 +1,19 @@
 @import '~@angular/material/theming/';
-$test: (
-  50: #0199d9,
-  100: #0199d9,
-  200: #0199d9,
-  300: #0199d9,
-  400: #0199d9,
-  500: #0199d9,
-  600: #0199d9,
-  700: #0199d9,
-  800: #0199d9,
-  900: #0199d9,
-  A100: #0199d9,
-  A200: #0199d9,
-  A400: #0199d9,
-  A700: #0199d9,
+$premera: (
+  50: #0099d8,
+  100: #0099d8,
+  200: #0099d8,
+  300: #0099d8,
+  400: #0099d8,
+  500: #0099d8,
+  600: #0099d8,
+  700: #0099d8,
+  800: #0099d8,
+  900: #0099d8,
+  A100: #0099d8,
+  A200: #0099d8,
+  A400: #0099d8,
+  A700: #0099d8,
   contrast: (
     50: $black-87-opacity,
     100: $black-87-opacity,
@@ -32,25 +32,25 @@ $test: (
   )
 );
 
-$primary: mat-palette($test,800);
-$accent:  mat-palette($mat-cyan);
-$warn: mat-palette($mat-red,600);
-$theme: mat-light-theme($primary, $accent, $warn);
-$background: map-get($theme, background);
-$foreground: map-get($theme, foreground);
+
+$premera-primary: mat-palette($premera,800);
+$premera-accent:  mat-palette($mat-cyan);
+$premera-warn: mat-palette($mat-red,600);
+$premera-theme: mat-light-theme($premera-primary, $premera-accent, $premera-warn);
 
 @include mat-core();
 
-$dark-primary: mat-palette($mat-amber,200);
-$dark-accent:  mat-palette($mat-cyan,400);
-$dark-warn: mat-palette($mat-pink);
-$dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
-$dark-background: map-get($dark-theme, background);
-$dark-foreground: map-get($dark-theme, foreground);
+$secondary-primary: mat-palette($mat-blue,800);
+$secondary-accent:  mat-palette($mat-cyan,400);
+$secondary-warn: mat-palette($mat-pink);
+$secondary-theme: mat-dark-theme($secondary-primary, $secondary-accent, $secondary-warn);
+$secondary-background: map-get($secondary-theme, background);
+$secondary-foreground: map-get($secondary-theme, foreground);
 
 // Default Theme
-@include angular-material-theme($theme);
+@include angular-material-theme($premera-theme);
+
 // Dark Theme
-.app-dark {
-  @include angular-material-theme($dark-theme);
+.premera-secondary {
+  @include angular-material-theme($secondary-theme);
 }
