@@ -19,7 +19,9 @@
 
 body {
   margin: 0;
+  height: 100%
 }
 my-app {
-  font-family: 'Lora', serif;
+  font-family: 'Lora', serif !important;
+  // font-family: 'Roboto' !important;
 }
