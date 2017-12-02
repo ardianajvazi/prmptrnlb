@@ -57,3 +57,14 @@ mat-card {
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
+
+
+.media-thumbnail {
+  display: flex;
+
+}
+.img-media-thumbnail {
+  height: 73px;
+  width: 73px;
+  margin-left: 20px;
+}
