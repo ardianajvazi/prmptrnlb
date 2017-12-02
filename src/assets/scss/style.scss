@@ -17,11 +17,44 @@
 @import "../../app/patterns/patterns-component.scss";
 @import "../../app/UiElements/uiElements-component.scss";
 
-body {
-  margin: 0;
-  height: 100%
+
+/* Ensure layout covers the entire screen. ALL THIS MAY NOT BE NECESSARY NOW? */
+html {
+  height: 100%;
 }
-my-app {
-  font-family: 'Lora', serif !important;
-  // font-family: 'Roboto' !important;
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+
+
+/* NOT SURE WHERE TO PUT THIS
+=============================================================== */
+
+/* LISTS */
+.mdc-list {
+
+  /* Create NEW LIST STYLE that has full-width borders between list items and appropriate padding */
+
+  /* New modifier class */
+  &.mdc-list--separated {
+    padding: 0;
+
+    li {
+      border-bottom: 1px solid #CCC;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
 }
