@@ -45,25 +45,7 @@
   </div>
 
   <h4>Examples</h4>
-  <section>
-    <div class="container">
-      <div class="card">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card-block">
-              <h4 class="card-title">Curabitur gravida vestibulum imperdiet.</h4>
-              <p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem. Integer sed mi quis nisl eleifend interdum.</p>
-              <p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" class="card-img-bottom"/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <br>
   <br>
   <br>
@@ -76,31 +58,14 @@
   <br>
 
 <!-- Start on first row -->
-<div class="row">
+  <div class="row">
 
-  <div class="col-xs-12 col-md-4">
-    <mat-card class="card-width-primary">
-      <div>
-        <img mat-card-image class="card-primary-img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-      </div>
-      <mat-card-title>This is the title</mat-card-title>
-      <mat-card-content>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
-        </p>
-      </mat-card-content>
-    </mat-card>
-  </div>
-
-  <div class="col-xs-12 col-md-8 testing">
-    <mat-card class="card-width-primary">
-      <div class="test">
-        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-      </div>
-      <div class="test2">
+    <div class="col-xs-12 col-md-4">
+      <h4>Primary card</h4>
+      <mat-card class="card-width-primary">
+        <div>
+          <img mat-card-image class="card-primary-img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
         <mat-card-title>This is the title</mat-card-title>
         <mat-card-content>
           <p>
@@ -110,274 +75,404 @@
             commodo consequat.
           </p>
         </mat-card-content>
-      </div>
-    </mat-card>
-  </div>
+      </mat-card>
+    </div>
 
-</div><!-- end row -->
-<br />
-<br />
-<br />
-<br />
-<br />
-  <div class="row">
-
-    <div class="col-xs-12 col-md-8">
-      <div class="mdc-card example-card">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <section class="mdc-card__media"></section>
-          </div>
-
-          <div class="col-xs-12 col-md-6">
-            <section class="mdc-card__primary">
-              <h1 class="mdc-card__title mdc-card__title--large">adsfTitle goes here</h1>
-            </section>
-            <section class="mdc-card__supporting-text">
+    <div class="col-xs-12 col-md-4">
+      <h4>Primary no media</h4>
+      <mat-card class="card-width-primary">
+        <div>
+          <mat-card-title>This is no media</mat-card-title>
+          <mat-card-content>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam.
-            </section>
-          </div>
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.
+            </p>
+          </mat-card-content>
         </div>
-      </div>
+      </mat-card>
+    </div>
 
-      <br />
-
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <div class="mdc-card example-card">
-            <section class="mdc-card__primary">
-              <h1 class="mdc-card__title mdc-card__title--large">asdftle goes here</h1>
-            </section>
-            <section class="mdc-card__supporting-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-              tempor incididunt ut labore.
-            </section>
-          </div>
+    <div class="col-xs-12 col-md-4">
+      <h4>Primary header only</h4>
+      <mat-card class="card-width-primary">
+        <div>
+          <mat-card-title>This is header only</mat-card-title>
         </div>
-
-        <div class="col-xs-12 col-md-6">
-          <div class="mdc-card example-card">
-            <section class="mdc-card__supporting-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </section>
-          </div>
-        </div>
-      </div>
+      </mat-card>
     </div>
   </div>
-  <!-- End of Row -->
-  <br><br>
+<!-- end first row -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+<!-- Second row -->
   <div class="row">
     <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__media"></section>
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-        </section>
-        <section class="mdc-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
-        </section>
-        <section class="mdc-card__actions">
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
-        </section>
-      </div>
+      <h4>Primary card media bottom</h4>
+      <mat-card class="card-width-primary">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+        <div>
+          <img mat-card-image class="card-primary-img-btm" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
+      </mat-card>
     </div>
 
     <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-        </section>
-        <section class="mdc-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
-        </section>
-        <section class="mdc-card__media"></section>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__media"></section>
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-        </section>
-        <section class="mdc-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
-        </section>
-        <section class="mdc-card__actions mdc-card__actions--justified">
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-          <button class="mdc-button mdc-button--compact mdc-card__action material-icons"
-          data-toggle="collapse" data-target="#card-expanded"
-          aria-expanded="false" aria-controls="card-expanded">
-            <span class="mdc-fab__icon">
-              keyboard_arrow_down
-            </span>
+      <h4>Card defualt</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="flat-button">
+            Flat Button
           </button>
-        </section>
-        <section id="card-expanded" class="mdc-card__supporting-text collapse">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt.
-        </section>
-      </div>
-    </div>
-  </div>
-  <br><br>
-
-  <div class="row">
-    <div class="col-xs-12 col-md-8">
-      <div class="mdc-card example-card">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <section class="mdc-card__media"></section>
-          </div>
-
-          <div class="col-xs-12 col-md-6">
-            <section class="mdc-card__primary">
-              <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-            </section>
-            <section class="mdc-card__supporting-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-              tempor, dude.
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-              <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-        </section>
-        <section class="mdc-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt ut labore.
-        </section>
-        <section class="mdc-card__actions mdc-card__actions--justified">
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-          <button class="mdc-button mdc-button--compact mdc-card__action material-icons"
-          data-toggle="collapse" data-target="#card-expanded-mini"
-          aria-expanded="false" aria-controls="card-expanded-mini">
-            <span class="mdc-fab__icon">
-              keyboard_arrow_down
-            </span>
+          <button mat-button class="flat-button">
+            Flat Button
           </button>
-        </section>
-        <section id="card-expanded-mini" class="mdc-card__supporting-text collapse">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt.
-        </section>
-      </div>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4>Card default no media</h4>
+      <mat-card class="card-default">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="flat-button">
+            Flat Button
+          </button>
+          <button mat-button class="flat-button">
+            Flat Button
+          </button>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </div>
-  <br><br>
+<!-- end second row -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+<!-- Third Row -->
   <div class="row">
     <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__media"></section>
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-        </section>
-      </div>
-      <br><br>
-
-      <div class="mdc-card example-card">
-        <section class="mdc-card__primary">
-          <h1 class="mdc-card__title mdc-card__title--large">Title goes here</h1>
-        </section>
-        <section class="mdc-card__supporting-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-          tempor incididunt ut labore.
-        </section>
-        <section class="mdc-card__actions">
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
-        </section>
-      </div>
+      <h4>Card primary expansion</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded"
+            aria-expanded="false" aria-controls="card-expanded">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded" class="collapse card-expand-p">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
     </div>
 
     <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__media"></section>
-        <section class="mdc-card__supporting-text mdc-card--list">
-          <ul class="mdc-list mdc-list--two-line mdc-list--separated">
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                Two-line item
-                <span class="mdc-list-item__text__secondary">Secondary text</span>
-              </span>
-            </li>
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                Two-line item
-                <span class="mdc-list-item__text__secondary">Secondary text</span>
-              </span>
-            </li>
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                Two-line item
-                <span class="mdc-list-item__text__secondary">Secondary text</span>
-              </span>
-            </li>
-          </ul>
-        </section>
-        <section class="mdc-card__actions">
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
-        </section>
-      </div>
+      <h4>Card primary expansion no media</h4>
+      <mat-card class="card-default">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded2"
+            aria-expanded="false" aria-controls="card-expanded2">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded2" class="collapse card-expand-p">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
     </div>
 
     <div class="col-xs-12 col-md-4">
-      <div class="mdc-card example-card">
-        <section class="mdc-card__supporting-text mdc-card--list">
-          <ul class="mdc-list mdc-list--two-line mdc-list--separated">
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                Two-line item
-                <span class="mdc-list-item__text__secondary">Secondary text</span>
-              </span>
-            </li>
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                Two-line item
-                <span class="mdc-list-item__text__secondary">Secondary text</span>
-              </span>
-            </li>
-            <li class="mdc-list-item">
-              <span class="mdc-list-item__text">
-                Two-line item
-                <span class="mdc-list-item__text__secondary">Secondary text</span>
-              </span>
-            </li>
-          </ul>
-        </section>
-        <section class="mdc-card__actions">
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 1</button>
-          <button class="mdc-button mdc-button--compact mdc-card__action">Action 2</button>
-        </section>
-      </div>
+      <h4>Card primary expansion two button</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded3"
+            aria-expanded="false" aria-controls="card-expanded3">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded3" class="collapse card-expand-p">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
     </div>
+
   </div>
-  <br><br>
+<!-- End of Third Row -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Fourth row -->
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <h4>Card primary expansion two button no media</h4>
+      <mat-card class="card-default">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded4"
+            aria-expanded="false" aria-controls="card-expanded4">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded4" class="collapse card-expand-p">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4>Card media primary</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4>Card list primary</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <mat-list class="card-list-padding-top">
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+  </div>
+<!-- End of fourth row -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Fifth Row -->
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <h4>Card list primary no media</h4>
+      <mat-card class="card-default">
+        <mat-card-content>
+          <mat-list class="card-list-padding-top">
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4>Media card</h4>
+      <mat-card class="card-width-primary">
+          <iframe  mat-card-image class="test-iframe" width="280" height="200" src="https://www.youtube.com/embed/qK-jrmQMY1k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4>Primary card title</h4>
+      <mat-card class="card-width-primary">
+        <mat-card-header>
+          <div mat-card-avatar class="card-header-title-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+          <img mat-card-image class="card-primary-img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+
+  </div>
+<!-- End of Fifth Row -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
   <button class="mdc-button mdc-button--raised code-example-trigger"
     data-toggle="collapse" data-target="#collapseExample"
