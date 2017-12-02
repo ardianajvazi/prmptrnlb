@@ -1,34 +1,59 @@
-.example-card .mdc-card__media {
-  background-image: url("https://www.premera.com/images/Style_Guide/Jumbotron_Woman_650x275.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200px;
+@import "../buttons/buttons-component.scss";
+
+
+mat-card {
+  width: 280px;
+  font-family: 'Roboto', sans-serif;
+
+  .mat-card-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 215px;
+  }
 }
 
-.example-card .mdc-card__author__avatar {
-  background-color: #CCC;
+.mat-card {
+  font-weight: medium !important;
 }
 
-.card-width-primary {
-  width: 275px !important;
-}
-.card-primary-img {
-  height: 200px;
+.card-primary-img-btm {
+  margin-bottom: -28px;
+  margin-top: 0px !important;
 }
 
-.testing {
-  display: flex;
-}
-.test {
-  float: left;
-}
-.test2 {
+.material-icons {
+  cursor: pointer;
+  position: relative;
+  top: 5px;
   float: right;
 }
 
-.card-img-bottom {
-  color: #fff;
-  height: 20rem;
-  // background: url(images/img1.jpg) center no-repeat;
+.card-expand-p {
+  padding: 0px 24px 0px 24px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: medium !important
+}
+
+.flat-button-cards {
+  color:  #DD6162;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.card-list-padding {
+  padding-top: 0px;
+  margin: 20px;
+}
+
+.card-list-padding-top {
+  padding: 0px;
+}
+
+.example-card {
+  width: 400px;
+}
+
+.card-header-title-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
