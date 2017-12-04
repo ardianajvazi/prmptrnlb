@@ -49,10 +49,6 @@ mat-card {
   padding: 0px;
 }
 
-.example-card {
-  width: 400px;
-}
-
 .card-header-title-image {
   background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
@@ -61,10 +57,65 @@ mat-card {
 
 .media-thumbnail {
   display: flex;
-
 }
+
 .img-media-thumbnail {
   height: 73px;
   width: 73px;
   margin-left: 20px;
 }
+
+.card-width-primary-landscape {
+  display: flex;
+  padding-bottom: 0px;
+}
+.landscape-card-width {
+  width: 650px;
+}
+.card-primary-img-landscape {
+  margin-left: 35px;
+  margin-bottom: -5px;
+  width: 300px;
+}
+
+.card-default-landscape {
+  display: flex;
+  padding-bottom: 0px;
+}
+.card-default-landscape-width {
+  width: 650px;
+}
+
+.card-default-img-landscape {
+  margin-right: 35px;
+  margin-bottom: -5px;
+  width: 300px !important;
+}
+
+.card-default-landscape-actions {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: -5px;
+}
+
+.card-default-landscape-content {
+  margin-bottom: 0px;
+}
+
+.media-thumbnail-wide {
+  width: 650px;
+}
+
+.media-thumbnail-default {
+  width: 275px;
+}
+
+.card-media-thumbnail-default-content {
+  display: flex;
+}
+
+.content-p {
+  width: 150px;
+}
+
+//
