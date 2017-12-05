@@ -64,8 +64,8 @@ import { TextFieldsComponent } from './UiElements/textFields/textFields-componen
 import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: '', redirectTo: 'library', pathMatch: 'full' },
+  { path: 'random', component: HomeComponent },
   // Our Components
   { path: 'library', component: UsingLibraryComponent },
   { path: 'building-prototypes', component: BuildingPrototypesComponent },

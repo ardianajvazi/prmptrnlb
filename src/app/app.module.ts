@@ -45,6 +45,7 @@ import { MatAutocompleteModule,
   MatStepperModule
 } from '@angular/material';
 // End of Material Design Components
+import { ChartsModule } from 'ng2-charts';
 import 'hammerjs';
 import 'prismjs/prism';
 import 'prismjs/components/prism-typescript';
@@ -110,10 +111,10 @@ import { CardsComponent } from './UiElements/cards/cards-component';
 import { ChartsGraphsComponent } from './UiElements/chartsGraphs/chartsGraphs-component';
 import { ChipsComponent } from './UiElements/chips/chips-component';
 import { DatePickerComponent } from './UiElements/datePicker/datePicker-component';
-import { DialogsComponent } from './UiElements/dialogs/dialogs-component';
+import { DialogsComponent, DialogViewComponent } from './UiElements/dialogs/dialogs-component';
 import { ExpansionPanelsComponent } from './UiElements/expansionPanels/expansionPanels-component';
 import { GridListsComponent } from './UiElements/gridLists/gridLists-component';
-import { SnackbarsComponent } from './UiElements/snackbars/snackbars-component';
+import { SnackbarsComponent, PizzaPartyComponent } from './UiElements/snackbars/snackbars-component';
 import { TablesComponent } from './UiElements/tables/tables-component';
 import { TextFieldsComponent } from './UiElements/textFields/textFields-component';
 import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
@@ -160,6 +161,7 @@ import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
 	  MatToolbarModule,
 	  MatTooltipModule,
 		MatStepperModule,
+    ChartsModule,
     ScrollToModule.forRoot()
     // Ng2DeviceDetectorModule.forRoot(),
     // Ng2BreadcrumbModule.forRoot(),
@@ -213,18 +215,20 @@ import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
       ChipsComponent,
       DatePickerComponent,
       DialogsComponent,
+      DialogViewComponent,
       ExpansionPanelsComponent,
       GridListsComponent,
       SnackbarsComponent,
+      PizzaPartyComponent,
       TablesComponent,
       TextFieldsComponent,
       ToolbarsComponent
 	],
+  entryComponents: [
+    DialogViewComponent,
+    PizzaPartyComponent
+  ],
 	bootstrap: [MyAppComponent],
-	providers:[
-		// MenuItems,
-		// BreadcrumbService,
-		// PageTitleService
-	]
+	providers:[]
 })
 export class MyAppModule { }

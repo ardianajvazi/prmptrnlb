@@ -10,6 +10,24 @@
 
 [EXAMPLES HERE]
 
+<div class="row">
+  <div class="col-md-8">
+    <div>
+      <div style="display: block">
+        <canvas baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+      <button (click)="randomize()">Update</button>
+    </div>
+  </div>
+</div>
+
 <button class="mdc-button mdc-button--raised code-example-trigger"
   data-toggle="collapse" data-target="#code-examples"
   aria-expanded="false" aria-controls="code-examples">

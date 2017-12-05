@@ -4,4 +4,43 @@
 <h2 class="mdc-typography--display1">Guidelines</h2>
 <p>The guidelines, to be written by UX Team and Jen Betterley.</p>
 
-[ YO DAWG THIS IS WHERE THE STEPPER GOES, along with other wizard content ]
+<h1>Example</h1>
+
+<div class="row">
+  <div class="col-md-6">
+    <button mat-raised-button (click)="isLinear = true" id="toggle-linear">Enable linear mode</button>
+
+    <mat-horizontal-stepper [linear]="isLinear">
+      <mat-step [stepControl]="firstFormGroup">
+        <form [formGroup]="firstFormGroup">
+          <ng-template matStepLabel>Fill out your name</ng-template>
+          <mat-form-field>
+            <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
+          </mat-form-field>
+          <div>
+            <button mat-button matStepperNext>Next</button>
+          </div>
+        </form>
+      </mat-step>
+      <mat-step [stepControl]="secondFormGroup">
+        <form [formGroup]="secondFormGroup">
+          <ng-template matStepLabel>Fill out your address</ng-template>
+          <mat-form-field>
+            <input matInput placeholder="Address" formControlName="secondCtrl" required>
+          </mat-form-field>
+          <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+          </div>
+        </form>
+      </mat-step>
+      <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        You are now done.
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+        </div>
+      </mat-step>
+    </mat-horizontal-stepper>
+  </div>
+</div>

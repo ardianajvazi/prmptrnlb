@@ -18,22 +18,14 @@
 
 <h2 class="mdc-typography--display1">Examples</h2>
 
-<nav id="icon-text-tab-bar" class="mdc-tab-bar mdc-tab-bar--icons-with-text" data-mdc-auto-init="MDCTabBar">
-  <a class="mdc-tab mdc-tab--with-icon-and-text mdc-tab--active" href="#recents">
-    <i class="material-icons mdc-tab__icon" aria-hidden="true">phone</i>
-    <span class="mdc-tab__icon-text">Recents</span>
-  </a>
-  <a class="mdc-tab mdc-tab--with-icon-and-text" href="#favorites">
-    <i class="material-icons mdc-tab__icon" aria-hidden="true">favorite</i>
-    <span class="mdc-tab__icon-text">Favorites</span>
-  </a>
-  <a class="mdc-tab mdc-tab--with-icon-and-text" href="#nearby">
-    <i class="material-icons mdc-tab__icon" aria-hidden="true">person_pin</i>
-    <span class="mdc-tab__icon-text">Nearby</span>
-  </a>
-  <span class="mdc-tab-bar__indicator"></span>
-</nav>
-<br><br>
+  <div class="row">
+    <div class="col-md-6">
+      <mat-tab-group>
+        <mat-tab label="Tab 1">Content 1</mat-tab>
+        <mat-tab label="Tab 2">Content 2</mat-tab>
+      </mat-tab-group>
+    </div>
+  </div>
 
 <button class="mdc-button mdc-button--raised code-example-trigger"
   data-toggle="collapse" data-target="#tabs-code"
