@@ -2,12 +2,12 @@ import {Component, ViewChild} from '@angular/core';
 import {MatPaginator, MatTableDataSource} from '@angular/material';
 
 @Component({
-  selector: 'ms-dashboard',
-  templateUrl:'./home-component.html',
-  styleUrls: ['./home-component.scss']
+  selector: 'ms-example',
+  templateUrl:'./example-component.html',
+  styleUrls: ['./example-component.scss']
 })
 
-export class HomeComponent {
+export class ExampleComponent {
   displayedColumns = ['position', 'name', 'weight', 'symbol'];
  dataSource = new MatTableDataSource<Element>(ELEMENT_DATA);
 
