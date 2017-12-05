@@ -6,7 +6,7 @@
 .drawer-content {
   padding: 20px;
   min-height: 100%;
-  overflow: scroll;
+  overflow: auto;
   margin-top: 134px;
   background-color: #fff;
 }
@@ -25,4 +25,8 @@
 .mat-drawer {
   position: fixed !important;
   top: 130px !important;
+}
+
+.navLinksHover {
+  padding-left: 15px;
 }

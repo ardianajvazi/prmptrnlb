@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
     styleUrls: ['./cards-component.scss']
 })
 export class CardsComponent {
-
+  panelOpenState: boolean = false;
 }

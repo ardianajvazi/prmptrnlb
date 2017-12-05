@@ -1,40 +1,77 @@
-<button mat-raised-button class="primaryRaisedButton">Click me!</button>
-<button mat-button class="flatButton">Click me!</button>
-<button mat-raised-button class="secondaryRaisedButton">Click me!</button>
-<button mat-button disabled class="buttonDisable">Disabled</button>
-<button mat-raised-button disabled class="raisedButtonDisable">Raised Disabled</button>
+<!-- BUTTONS -->
+<section class="buttons-container">
+  <a name="buttons"></a>
+  <h1>Buttons</h1>
+  <p class="lead">Buttons communicate the action that will occur when the user touches them. We have a number to choose from.</p>
 
+  <div class="row pattern__usage">
+    <div class="col-xs-12 col-md-6">
+      <h4>Usage</h4>
+      <h5>Flat buttons</h5>
+      <p>Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or inline. They do not lift, but fill with color on press.</p>
+      <h5>Raised buttons</h5>
+      <p>Raised buttons are rectangular-shaped buttons. They may be used inline. They lift and display ink reactions on press.</p>
+      <p><a href="https://material.io/guidelines/components/buttons.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
+    </div>
 
-<button mat-button color="primary">Click me!</button>
+    <div class="col-xs-12 col-md-6">
+      <h4>What Not To Do</h4>
+      <p>...</p>
+    </div>
+  </div>
 
-<br>
+  <h4>Examples</h4>
+  <div class="row">
+    <div class="col-md-4 button-container-padding">
+      <button mat-raised-button class="primary-raised-button">
+        Primary Raised Button
+      </button>
+      <br><br>
+      <button mat-raised-button disabled class="raised-button-disable">
+        Raised Disabled
+      </button>
+    </div>
 
-<div>
-  <mat-card>
-    Main Theme:
-    <button mat-raised-button color="primary">
-      Primary
-    </button>
-    <button mat-raised-button color="accent">
-      Accent
-    </button>
-    <button mat-raised-button color="warn">
-      Warning
-    </button>
-  </mat-card>
-</div>
+    <div class="col-md-4 button-container-padding">
+      <button mat-raised-button class="secondary-raised-button">
+        Secondary Button
+      </button>
+      <br><br>
+      <button mat-raised-button disabled class="raised-button-disable">
+        Raised Disabled
+      </button>
+    </div>
 
-<div>
-  <mat-card class="premera-secondary">
-    Secondary Theme:
-    <button mat-raised-button color="primary">
-      Primary
-    </button>
-    <button mat-raised-button color="accent">
-      Accent
-    </button>
-    <button mat-raised-button color="warn">
-      Warning
-    </button>
-  </mat-card>
-</div>
+    <div class="col-md-4 button-container-padding">
+      <button mat-button class="flat-button">
+        Flat Button
+      </button>
+      <br><br>
+
+      <button mat-button disabled>
+        Disabled
+      </button>
+    </div>
+  </div>
+
+  <button mat-button
+    data-toggle="collapse" data-target="#button-code-1"
+    aria-expanded="false" aria-controls="button-code-1">
+    Show Code
+  </button>
+
+  <div class="row" class="col-md-12">
+    <div class="collapse" id="button-code-1">
+      <div>
+        <mat-tab-group class="col-md-8">
+          <mat-tab label="HTML">
+            <prism-block [code]="htmlCode" [language]="'html'"></prism-block>
+          </mat-tab>
+          <mat-tab label="CSS">
+            <prism-block [code]="cssCode2" [language]="'css'"></prism-block>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+    </div>
+  </div>
+</section>

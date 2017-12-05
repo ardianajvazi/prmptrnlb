@@ -1,0 +1,23 @@
+.mdc-typography--display4, /* Not using */
+.mdc-typography--display3, /* Not using */
+.mdc-typography--display2,
+.mdc-typography--display1 {
+  font-family: 'Lora', 'Times', serif;
+}
+
+.mdc-typography,
+.mdc-typography--headline,
+.mdc-typography--title,
+.mdc-typography--subheading-2,
+.mdc-typography--subheading-1,
+.mdc-typography--body2,
+.mdc-typography--body1,
+.mdc-typography--caption, {
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -1,0 +1,22 @@
+/* Grid Layout */
+/* Color the grid so people can see how it works */
+.example-grid {
+  background-color: #EEEEEE;
+  padding: 20px;
+
+  img {
+    width: 100%;
+  }
+
+  div[class*='col-'] {
+    padding: 5px;
+  }
+
+  div[class*='col-']:nth-child(even) {
+    background: #e4b0e5;
+  }
+
+  div[class*='col-']:nth-child(odd) {
+    background: #c093c1;
+  }
+}

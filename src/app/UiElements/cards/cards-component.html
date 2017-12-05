@@ -1,3 +1,612 @@
-<div>
+<!-- CARDS -->
+<section class="pattern">
+  <a name="cards"></a>
   <h1>Cards</h1>
-</div>
+  <p class="lead">A card is a sheet of material that serves as an entry point to more detailed information. Cards display content composed of different elements whose size or supported actions vary.</p>
+
+  <h4>Usage</h4>
+  <p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length. Use a card layout when displaying content that:</p>
+  <ul>
+    <li>As a collection, comprises multiple data types, such as images, movies, and text</li>
+    <li>Does not require direct comparison (a user is not directly comparing images or text)</li>
+    <li>Supports content of highly variable length, such as comments</li>
+    <li>Contains interactive content, such as +1 buttons or comments</li>
+    <li>Would otherwise be in a grid list but needs to display more content to supplement the image</li>
+  </ul>
+  <p><a href="https://material.io/guidelines/components/cards.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
+
+  <div class="row pattern__usage">
+    <div class="col-xs-12 col-md-6">
+      <h4>Behavior</h4>
+      <p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field).</p>
+      <p>Cards do not flip over to reveal information on the back.</p>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+      <h4>Related Components</h4>
+      <p><a href="#grid-lists">Grid Lists</a></p>
+    </div>
+  </div>
+
+  <div class="row pattern__usage">
+    <div class="col-xs-12 col-md-12">
+      <h4>Supported Gestures</h4>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+      <p><strong>Swipe</strong></p>
+      <p>The swipe gesture may be used on a per-card basis. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</p>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+      <p><strong>Pick Up And Move</strong></p>
+      <p>The pick-up-and-move gesture may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</p>
+    </div>
+  </div>
+
+  <h4>Examples</h4>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+<!-- Start on first row -->
+  <div class="row row-margin">
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Primary card</h4>
+      <mat-card class="card-width-primary">
+        <div>
+          <img mat-card-image class="card-primary-img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Primary no media</h4>
+      <mat-card class="card-width-primary">
+        <div>
+          <mat-card-title>This is no media</mat-card-title>
+          <mat-card-content>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat.
+            </p>
+          </mat-card-content>
+        </div>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Primary header only</h4>
+      <mat-card class="card-width-primary">
+        <div>
+          <mat-card-title>This is header only</mat-card-title>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+<!-- end first row -->
+
+
+<!-- Second row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Primary card media bottom</h4>
+      <mat-card class="card-width-primary">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+        <div>
+          <img mat-card-image class="card-primary-img-btm" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card default</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="flat-button">
+            Flat Button
+          </button>
+          <button mat-button class="flat-button">
+            Flat Button
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card default no media</h4>
+      <mat-card class="card-default">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button class="flat-button">
+            Flat Button
+          </button>
+          <button mat-button class="flat-button">
+            Flat Button
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+<!-- end second row -->
+
+
+<!-- Third Row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card primary expansion</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded"
+            aria-expanded="false" aria-controls="card-expanded">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded" class="collapse card-expand-p">
+            <p class="expand-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card primary expansion no media</h4>
+      <mat-card class="card-default">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded2"
+            aria-expanded="false" aria-controls="card-expanded2">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded2" class="collapse card-expand-p">
+            <p class="expand-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card primary expansion two button</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded3"
+            aria-expanded="false" aria-controls="card-expanded3">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded3" class="collapse card-expand-p">
+            <p class="expand-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+  </div>
+<!-- End of Third Row -->
+
+
+<!-- Fourth row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card primary expansion two button no media</h4>
+      <mat-card class="card-default">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button-cards">
+              Flat Button
+            </button>
+            <span class="flat-button material-icons"
+            data-toggle="collapse" data-target="#card-expanded4"
+            aria-expanded="false" aria-controls="card-expanded4">
+              <mat-icon>
+                keyboard_arrow_down
+              </mat-icon>
+            </span>
+          </section>
+          <section id="card-expanded4" class="collapse card-expand-p">
+            <p class="expand-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt.
+            </p>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card media primary</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card list primary</h4>
+      <mat-card class="card-default">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <mat-list class="card-list-padding-top">
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+  </div>
+<!-- End of fourth row -->
+
+
+
+<!-- Fifth Row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card list primary no media</h4>
+      <mat-card class="card-default">
+        <mat-card-content>
+          <mat-list class="card-list-padding-top">
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="card-list-padding">
+              <p>Digital design is like painting</p>
+            </mat-list-item>
+          </mat-list>
+        </mat-card-content>
+        <mat-card-actions>
+          <section>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+          </section>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Media card</h4>
+      <mat-card class="card-width-primary">
+          <iframe  mat-card-image class="test-iframe" width="280" height="200" src="https://www.youtube.com/embed/qK-jrmQMY1k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Primary card title</h4>
+      <mat-card class="card-width-primary">
+        <mat-card-header>
+          <div mat-card-avatar class="card-header-title-image"></div>
+          <mat-card-title>Shiba Inu</mat-card-title>
+          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        </mat-card-header>
+          <img mat-card-image class="card-primary-img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+
+  </div>
+<!-- End of Fifth Row -->
+
+<!-- Sixth Row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card media thumbnail</h4>
+      <mat-card class="media-thumbnail">
+          <mat-card-title>This is the title</mat-card-title>
+        <mat-card-content>
+          <img  class="img-media-thumbnail" src="../../../assets/img/img-square.jpg" alt="blah blah blah" />
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div class="col-xs-12 col-md-8">
+      <h4 class="margin-header">Card primary media right</h4>
+      <mat-card class="card-width-primary-landscape landscape-card-width">
+        <mat-card-content>
+          <mat-card-title>This is the title</mat-card-title>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+          </p>
+        </mat-card-content>
+        <div>
+          <img mat-card-image class="card-primary-img-landscape" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  <!-- End of Sixth row -->
+
+
+  <!-- Seventh row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-8">
+      <h4 class="margin-header">Card default landscape</h4>
+      <mat-card class="card-default-landscape card-default-landscape-width">
+        <div>
+          <img mat-card-image class="card-default-img-landscape" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
+        <mat-card-content>
+          <mat-card-title>This is the title</mat-card-title>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+          <mat-card-actions class="card-default-landscape-actions">
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+          </mat-card-actions>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  <!-- End of Seventh row -->
+
+  <!-- Eighth Row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card default landscape media right</h4>
+      <mat-card class="card-default-landscape card-default-landscape-width">
+        <mat-card-content class="card-default-landscape-content">
+          <mat-card-title>This is the title</mat-card-title>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+          <mat-card-actions class="card-default-landscape-actions">
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+            <button mat-button class="flat-button">
+              Flat Button
+            </button>
+          </mat-card-actions>
+        </mat-card-content>
+        <div>
+          <img mat-card-image class="card-primary-img-landscape" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  <!-- End of Eighth Row -->
+
+  <!-- Ninth Row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card media thumbnail wide</h4>
+      <mat-card class="media-thumbnail media-thumbnail-wide">
+          <mat-card-content>
+            <mat-card-title>This is the title</mat-card-title>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </mat-card-content>
+        <div>
+          <img  class="img-media-thumbnail" src="../../../assets/img/img-square.jpg" alt="blah blah blah" />
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  <!-- End of Ninth Row  -->
+
+  <!-- Tenth Row -->
+  <div class="row row-margin">
+    <div class="col-xs-12 col-md-4">
+      <h4 class="margin-header">Card media thumbnail default</h4>
+      <mat-card class="media-thumbnail media-thumbnail-default">
+          <mat-card-content>
+            <div class="card-media-thumbnail-default-content">
+              <mat-card-title>This is the title</mat-card-title>
+              <div>
+                <img  class="img-media-thumbnail" src="../../../assets/img/img-square.jpg" alt="blah blah blah" />
+              </div>
+            </div>
+            <p class="content-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <mat-card-actions class="card-default-landscape-actions ">
+              <button mat-button class="flat-button-cards">
+                Flat Button
+              </button>
+              <button mat-button class="flat-button-cards">
+                Flat Button
+              </button>
+            </mat-card-actions>
+          </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  <!-- End of Tenth row -->
+
+
+  <button class="mdc-button mdc-button--raised code-example-trigger"
+    data-toggle="collapse" data-target="#collapseExample"
+    aria-expanded="false" aria-controls="collapseExample">
+    Show Code
+  </button>
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <h4>The Code</h4>
+      <br>
+
+      <h4>Adding The Image</h4>
+      <p>The image and it's height need custom CSS.</p>
+
+
+      <br>
+
+      <h4>Custom Sizing</h4>
+      <p>
+        Cards don’t come with a predefined width or height. They expand horizontally to fill all available space,
+        and vertically to fit their contents. If you’d like to maintain a consistent height and width across cards,
+        you’ll need to set it in your styles. You might need to muck with the media height and the card height/width
+        to make sure you don't have any weird gaps.
+      </p>
+    </div>
+  </div>
+</section>
