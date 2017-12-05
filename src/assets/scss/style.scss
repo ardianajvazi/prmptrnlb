@@ -9,13 +9,13 @@
 
 // Our custom classes these get loaded from our app/<name-of-component> folders
 @import "../../app/nav/nav-component.scss";
-@import "../../app/home/home-component.scss";
+@import "../../app/example/example-component.scss";
 
-@import "../../app/UsingLibrary/usingLibrary-component.scss";
-@import "../../app/Style/style-component.scss";
-@import "../../app/Guidelines/guidelines-component.scss";
-@import "../../app/patterns/patterns-component.scss";
-@import "../../app/UiElements/uiElements-component.scss";
+// @import "../../app/UsingLibrary/usingLibrary-component.scss";
+// @import "../../app/Style/style-component.scss";
+// @import "../../app/Guidelines/guidelines-component.scss";
+// @import "../../app/patterns/patterns-component.scss";
+// @import "../../app/UiElements/uiElements-component.scss";
 
 
 /* Ensure layout covers the entire screen. ALL THIS MAY NOT BE NECESSARY NOW? */
@@ -31,30 +31,4 @@ body {
   margin: 0;
   box-sizing: border-box;
   min-height: 100%;
-}
-
-
-
-/* NOT SURE WHERE TO PUT THIS
-=============================================================== */
-
-/* LISTS */
-.mdc-list {
-
-  /* Create NEW LIST STYLE that has full-width borders between list items and appropriate padding */
-
-  /* New modifier class */
-  &.mdc-list--separated {
-    padding: 0;
-
-    li {
-      border-bottom: 1px solid #CCC;
-      padding-left: 20px;
-      padding-right: 20px;
-
-      &:last-child {
-        border: none;
-      }
-    }
-  }
 }
