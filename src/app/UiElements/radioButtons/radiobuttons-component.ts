@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
     styleUrls: ['./radiobuttons-component.scss']
 })
 export class RadiobuttonsComponent {
+  favoriteSeason: string;
 
+  seasons = [
+    'Winter',
+    'Spring',
+    'Summer',
+    'Autumn',
+  ];
 }

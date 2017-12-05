@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
     styleUrls: ['./lists-component.scss']
 })
 export class ListsComponent {
-
+  typesOfShoes = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
 }
