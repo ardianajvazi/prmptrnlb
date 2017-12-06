@@ -1,3 +1,29 @@
+<mat-card>
+  <mat-card-content>
+    <h2 class="example-h2">Checkbox configuration</h2>
+
+    <section class="example-section">
+      <mat-checkbox class="example-margin" [(ngModel)]="disabled" >Checked</mat-checkbox>
+    </section>
+
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="result">
+  <mat-card-content>
+    <h2 class="example-h2">Result</h2>
+
+    <section class="example-section">
+      <mat-checkbox
+          class="example-margin"
+          [disabled]="!disabled">
+        I'm a checkbox
+      </mat-checkbox>
+    </section>
+  </mat-card-content>
+</mat-card>
+
+
 <h1 class="mdc-typography--display2">Dialogs</h1>
 <p class="mdc-typography--headline">Dialogs inform users about a specific task and may contain critical information, require decisions, or involve multiple tasks.</p>
 
@@ -28,7 +54,14 @@
   <div class="col-md-6">
     <button mat-raised-button (click)="openDialog()">Open dialog</button>
   </div>
+  <div class="col-md-6">
+    <button mat-raised-button (click)="openSecondDialog()">Open second dialog</button>
+  </div>
 </div>
+
+<br>
+<br>
+<br>
 
 <aside id="mdc-dialog-example"
   class="mdc-dialog"
@@ -63,50 +96,5 @@
   <div class="card card-body">
     <h4 class="mdc-typography--headline">The Code</h4>
     <p><a href="">View Material Components Web Documentation</a></p>
-
-    <!--
-    <h4 class="mdc-typography--headline">HTML to initiate dialog</h4>
-    <pre><code class="language-markup">
-      <script type="prism-html-markup">
-<p><button class="mdc-button mdc-button--raised" id="default-dialog-activation">Show Dialog</button></p>
-      </script>
-    </code></pre>
-
-    <h4 class="mdc-typography--headline">JavaScript to initiate dialog</h4>
-    <pre><code class="language-javascript">
-      var dialog = new mdc.dialog.MDCDialog(document.querySelector('#mdc-dialog-example'));
-      document.querySelector('#default-dialog-activation').addEventListener('click', function (evt) {
-      dialog.lastFocusedTarget = evt.target;
-      dialog.show();
-      })
-    </code></pre>
-
-    <h4 class="mdc-typography--headline">Dialog HTML</h4>
-    <pre><code class="language-markup">
-      <script type="prism-html-markup">
-        <aside id="mdc-dialog-example"
-        class="mdc-dialog"
-        role="alertdialog"
-        aria-labelledby="my-mdc-dialog-label"
-        aria-describedby="my-mdc-dialog-description">
-        <div class="mdc-dialog__surface">
-        <header class="mdc-dialog__header">
-        <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
-          Use Googles location service
-        </h2>
-        </header>
-        <section id="my-mdc-dialog-description" class="mdc-dialog__body">
-        Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
-        </section>
-        <footer class="mdc-dialog__footer">
-        <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
-        <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
-        </footer>
-        </div>
-        <div class="mdc-dialog__backdrop"></div>
-        </aside>
-      </script>
-    </code></pre>
-  -->
   </div>
 </div>
