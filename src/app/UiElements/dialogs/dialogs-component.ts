@@ -9,39 +9,57 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
     styleUrls: ['./dialogs-component.scss']
 })
 export class DialogsComponent {
-  // checked = false;
-  // indeterminate = false;
-  // align = 'start';
-  // disabled = false;
-  animal: string;
-  name: string;
-  foo: string;
-  bar: string;
 
   constructor(public dialog: MatDialog) {}
 
   openDialog(): void {
     let dialogRef = this.dialog.open(DialogViewComponent, {
       width: '575px',
-      height: '184px',
-      data: { name: this.name, animal: this.animal }
+      height: '184px'
     });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
-      this.animal = result;
     });
   }
   openSecondDialog(): void {
     let dialogRef = this.dialog.open(DialogViewComponent2, {
       width: '575px',
-      height: '230px',
-      data: { bar: this.bar, foo: this.foo }
+      height: '230px'
     });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
-      this.foo = result;
+    });
+  }
+  openThirdDialog(): void {
+    let dialogRef = this.dialog.open(DialogViewComponent3, {
+      width: '575px',
+      height: '230px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
+  openFourthDialog(): void {
+    let dialogRef = this.dialog.open(DialogViewComponent4, {
+      width: '575px'
+      // height: '230px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
+  openFifthDialog(): void {
+    let dialogRef = this.dialog.open(DialogViewComponent5, {
+      width: '575px',
+      // height: '230px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
     });
   }
 }
@@ -69,8 +87,7 @@ export class DialogViewComponent {
   styleUrls: ['./dialogs-component.scss']
 })
 export class DialogViewComponent2 {
-  disabled = true;
-
+disabled = true;
   constructor(
     public dialogRef: MatDialogRef<DialogViewComponent2>,
     @Inject(MAT_DIALOG_DATA) public data: any) { }
@@ -78,8 +95,57 @@ export class DialogViewComponent2 {
   onNoClick(): void {
     this.dialogRef.close();
   }
-  click() {
-    disable = false;
+  notDisabled() {
+    this.disabled = false;
+  }
+}
+
+@Component({
+  selector: 'dialog-data-example-dialog3',
+  templateUrl: './partials/dialog3.html',
+  styleUrls: ['./dialogs-component.scss']
+})
+export class DialogViewComponent3 {
+
+  constructor(
+    public dialogRef: MatDialogRef<DialogViewComponent3>,
+    @Inject(MAT_DIALOG_DATA) public data: any) { }
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+
+}
+
+@Component({
+  selector: 'dialog-data-example-dialog4',
+  templateUrl: './partials/dialog4.html',
+  styleUrls: ['./dialogs-component.scss']
+})
+export class DialogViewComponent4 {
+
+  constructor(
+    public dialogRef: MatDialogRef<DialogViewComponent4>,
+    @Inject(MAT_DIALOG_DATA) public data: any) { }
+
+  onNoClick(): void {
+    this.dialogRef.close();
+  }
+
+}
+@Component({
+  selector: 'dialog-data-example-dialog5',
+  templateUrl: './partials/dialog5.html',
+  styleUrls: ['./dialogs-component.scss']
+})
+export class DialogViewComponent5 {
+
+  constructor(
+    public dialogRef: MatDialogRef<DialogViewComponent5>,
+    @Inject(MAT_DIALOG_DATA) public data: any) { }
+
+  onNoClick(): void {
+    this.dialogRef.close();
   }
 
 }

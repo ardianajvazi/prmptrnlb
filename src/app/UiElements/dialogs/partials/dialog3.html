@@ -1,0 +1,21 @@
+<div>
+  <h2 mat-dialog-title>Scroll Dialog</h2>
+  <mat-dialog-content class="dialog-content-scroll">
+    <mat-radio-group class="dialog-radio-group">
+      <mat-radio-button class="dialog-button" value="1">Radio Button Option 1</mat-radio-button>
+      <mat-radio-button class="dialog-button" value="2">Radio Button Option 2</mat-radio-button>
+      <mat-radio-button class="dialog-button" value="3">Radio Button Option 3</mat-radio-button>
+      <mat-radio-button class="dialog-button" value="4">Radio Button Option 4</mat-radio-button>
+      <mat-radio-button class="dialog-button" value="5">Radio Button Option 5</mat-radio-button>
+      <mat-radio-button class="dialog-button" value="6">Radio Button Option 6</mat-radio-button>
+    </mat-radio-group>
+  </mat-dialog-content>
+  <mat-dialog-actions class="dialogs-actions-buttons">
+    <button mat-button mat-dialog-close class="flat-button">
+      Disagree
+    </button>
+    <button mat-button [mat-dialog-close]="true" class="flat-button">
+      Agree
+    </button>
+  </mat-dialog-actions>
+</div>

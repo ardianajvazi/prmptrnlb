@@ -113,7 +113,14 @@ import { ChartsGraphsComponent } from './UiElements/chartsGraphs/chartsGraphs-co
 import { CheckboxesComponent } from './UiElements/checkboxes/checkboxes-component';
 import { ChipsComponent } from './UiElements/chips/chips-component';
 import { DatePickerComponent } from './UiElements/datePicker/datePicker-component';
-import { DialogsComponent, DialogViewComponent, DialogViewComponent2 } from './UiElements/dialogs/dialogs-component';
+import {
+  DialogsComponent,
+  DialogViewComponent,
+  DialogViewComponent2,
+  DialogViewComponent3,
+  DialogViewComponent4,
+  DialogViewComponent5,
+ } from './UiElements/dialogs/dialogs-component';
 import { ExpansionPanelsComponent } from './UiElements/expansionPanels/expansionPanels-component';
 import { GridListsComponent } from './UiElements/gridLists/gridLists-component';
 import { ListsComponent } from './UiElements/lists/lists-component';
@@ -226,6 +233,9 @@ import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
       DialogsComponent,
       DialogViewComponent,
       DialogViewComponent2,
+      DialogViewComponent3,
+      DialogViewComponent4,
+      DialogViewComponent5,
       ExpansionPanelsComponent,
       GridListsComponent,
       ListsComponent,
@@ -242,6 +252,9 @@ import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
   entryComponents: [
     DialogViewComponent,
     DialogViewComponent2,
+    DialogViewComponent3,
+    DialogViewComponent4,
+    DialogViewComponent5,
     PizzaPartyComponent
   ],
 	bootstrap: [MyAppComponent],
