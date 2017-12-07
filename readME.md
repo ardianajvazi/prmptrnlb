@@ -2,14 +2,20 @@
 
 Node.js and NPM : Download Node.js from https://nodejs.org/en/download and install on your system. NPM comes bundled with Node.js
 
+```
+git clone <Repo_URL>
+cd into that repo
+
+once you are in that folder run commands below
+
+```
 
 ### Running Server
 
-```
-npm install  <!-- this will install all the dependencies-->
-npm start <!-- this will build and run on localhost:3001-->
 
-The app will automatically reload if you change any of the source files.
+```
+npm install
+npm start
 
 ```
 
