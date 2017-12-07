@@ -12,6 +12,7 @@ once you are in that folder run commands below
 
 ### Running Server
 
+In your Terminal run these commands
 
 ```
 npm install
