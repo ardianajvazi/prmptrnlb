@@ -1,6 +1,7 @@
 @import '~@angular/material/theming/';
+$config: mat-typography-config();
 
-$custom-typography: mat-typography-config(
+$premera-typography: mat-typography-config(
   $font-family: 'Lora, monospace',
   $display-2: mat-typography-level(58px, 72px, 400),
   $display-1: mat-typography-level(46px, 58px, 400),
@@ -9,112 +10,64 @@ $custom-typography: mat-typography-config(
   $subheading-2: mat-typography-level(24px, 30px, 400),
   $subheading-1: mat-typography-level(19px, 24px, 500),
   $body-2: mat-typography-level(19px, 31px, 500),
-  $body-1: mat-typography-level(19px, 1.25rem, 300),
-  $caption: mat-typography-level(16px, 1.4rem, 300)
+  $body-1: mat-typography-level(19px, 20px, 300),
+  $caption: mat-typography-level(16px, 22.4px, 300),
+  $button: mat-typography-level(19px, 43px, 500)
 );
+// $premera-font-family: mat-typography-config(
+//   $font-family: 'Lora, monospace'
+// );
 
-@include angular-material-typography($custom-typography)
+@include angular-material-typography($premera-typography)
+// @include mat-list-typography($premera-typography);
 
-@include mat-core($custom-typography);
+// @include mat-core($premera-font-family);
+// @include mat-base-typography($premera-typography);
 
 
-// /* $typography
-//  ------------------------------------------*/
-// h1,
-// h2,
-// h3,
-// h4,
-// .h1,
-// .h2,
-// .h3,
-// .h4 {
-//     margin-bottom: $headings-margin-bottom;
-//     color: $headings-color;
-//     font-weight: 500;
-//     margin-top: 0;
-//     font-family: 'Lora', sans-serif;
-// }
-// h1,
-// .h1 {
-//     font-size: $display-1;
-//     color:$h1-font-color;
-// }
-// h2,
-// .h2 {
-//     font-size: $headline;
-// }
-// h3,
-// .h3 {
-//     font-size: $subheading-2;
-// }
-// h4,
-// .h4 {
-//     font-size: $subheading-1;
-// }
-// h5,
-// .h5 {
-//     font-size: $font-size-h5;
-//     color:$h5-font-color;
-// }
-// h6,
-// .h6 {
-//     font-size: $font-size-h6;
-//     color:$h6-font-color;
-// }
-// a {
-//     text-decoration: none;
-//     color: inherit;
-//     font-weight: 800;
-// }
-// button {
-//     outline: 0;
-// }
-// figure {
-//     margin: 0;
-// }
-// hr {
-//     margin-top: 0;
-//     margin-bottom: 0;
-//     border: 0;
-// }
-// strong,
-// b {
-//     font-weight: 700;
-// }
+/* $typography
+ ------------------------------------------*/
+
+h1,
+.h1 {
+  @include mat-typography-level-to-styles($premera-typography, headline);
+}
+h2,
+.h2 {
+    @include mat-typography-level-to-styles($premera-typography, title);
+}
+h3,
+.h3 {
+    @include mat-typography-level-to-styles($premera-typography, subheading-2);
+}
+h4,
+.h4 {
+    @include mat-typography-level-to-styles($premera-typography, subheading-1);
+}
+p,
+.p {
+  @include mat-typography-level-to-styles($premera-typography, body-1);
+}
+button {
+  @include mat-typography-level-to-styles($premera-typography, button);
+}
+
+
+.mat-list .mat-list-item {
+  @include mat-typography-level-to-styles($premera-typography, body-1);
+}
+.mat-card-title {
+  @include mat-typography-level-to-styles($premera-typography, title);
+}
+
+.mat-card-content p {
+  @include mat-typography-level-to-styles($premera-typography, caption);
+}
+
+.expand-content {
+  @include mat-typography-level-to-styles($premera-typography, caption);
+}
+
+
+
 //
-//
-// // Typography
-// //
-//
-//
-// $font-color: #3A405B;
-//
-// $html-font-size: 16px;
-// $mat-font-family: 'Roboto', sans-serif;
-// $font-size-base: 1rem !default;
-// $font-weight-base: 400 !default;
-// $font-weight-medium: 500 !default;
-// $font-weight-bold: 600 !default;
-//
-// //Heading Font Size
-// $font-size-h1: 2rem !default;
-// $font-size-h2: 1.625rem !default;//26px
-// $font-size-h3: 1.375rem !default;//22px
-// $font-size-h4: 1.125rem !default;//18px
-// $font-size-h5: 0.875rem !default;//14px
-// $font-size-h6: 0.75rem !default;//12px
-// //Heading Font color
-//
-// // update all the h1 tags
-// $h1-font-color:inherit;
-// $h2-font-color:inherit;
-// $h3-font-color:inherit;
-// $h4-font-color:inherit;
-// $h5-font-color:inherit;
-// $h6-font-color:inherit;
-//
-// $headings-margin-bottom: (1rem / 2) !default;
-// $headings-font-family:   inherit !default;
-// $headings-font-weight:   400 !default;
-// $headings-line-height:   1.1 !default;
-// $headings-color:         inherit !default;

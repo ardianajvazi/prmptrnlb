@@ -3,17 +3,12 @@
 
 mat-card {
   width: 280px;
-  font-family: 'Roboto', sans-serif;
 
   .mat-card-image {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 215px;
+    height: 215px !important;
   }
-}
-
-.mat-card {
-  font-weight: medium !important;
 }
 
 .card-primary-img-btm {
@@ -30,8 +25,6 @@ mat-card {
 
 .card-expand-p {
   padding: 0px 24px 0px 24px;
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: medium !important
 }
 
 .flat-button-cards {
@@ -68,14 +61,16 @@ mat-card {
 .card-width-primary-landscape {
   display: flex;
   padding-bottom: 0px;
+  height: 215px;
 }
 .landscape-card-width {
   width: 650px;
 }
 .card-primary-img-landscape {
   margin-left: 35px;
-  margin-bottom: -5px;
+  // margin-bottom: -5px;
   width: 300px;
+  height: 215px;
 }
 
 .card-default-landscape {
@@ -84,12 +79,14 @@ mat-card {
 }
 .card-default-landscape-width {
   width: 650px;
+  height: 215px;
 }
 
 .card-default-img-landscape {
   margin-right: 35px;
   margin-bottom: -5px;
   width: 300px !important;
+  height: 215px;
 }
 
 .card-default-landscape-actions {
@@ -125,9 +122,6 @@ mat-card {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.expand-content {
-  font-size: 14px;
-  font-family: "Roboto"
-}
+
 
 //

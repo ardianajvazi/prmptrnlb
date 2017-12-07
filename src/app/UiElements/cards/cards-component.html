@@ -1,36 +1,36 @@
 <!-- CARDS -->
-<section class="pattern">
+<section class="container">
   <a name="cards"></a>
   <h1>Cards</h1>
   <p class="lead">A card is a sheet of material that serves as an entry point to more detailed information. Cards display content composed of different elements whose size or supported actions vary.</p>
 
-  <h4>Usage</h4>
+  <h2>Usage</h2>
   <p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length. Use a card layout when displaying content that:</p>
-  <ul>
-    <li>As a collection, comprises multiple data types, such as images, movies, and text</li>
-    <li>Does not require direct comparison (a user is not directly comparing images or text)</li>
-    <li>Supports content of highly variable length, such as comments</li>
-    <li>Contains interactive content, such as +1 buttons or comments</li>
-    <li>Would otherwise be in a grid list but needs to display more content to supplement the image</li>
-  </ul>
+  <mat-list>
+    <mat-list-item>1. As a collection, comprises multiple data types, such as images, movies, and text</mat-list-item>
+    <mat-list-item>2. Does not require direct comparison (a user is not directly comparing images or text)</mat-list-item>
+    <mat-list-item>3. Supports content of highly variable length, such as comments</mat-list-item>
+    <mat-list-item>4. Contains interactive content, such as +1 buttons or comments</mat-list-item>
+    <mat-list-item>5. Would otherwise be in a grid list but needs to display more content to supplement the image</mat-list-item>
+  </mat-list>
   <p><a href="https://material.io/guidelines/components/cards.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
 
   <div class="row pattern__usage">
     <div class="col-xs-12 col-md-6">
-      <h4>Behavior</h4>
+      <h2>Behavior</h2>
       <p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field).</p>
       <p>Cards do not flip over to reveal information on the back.</p>
     </div>
 
     <div class="col-xs-12 col-md-6">
-      <h4>Related Components</h4>
+      <h2>Related Components</h2>
       <p><a href="#grid-lists">Grid Lists</a></p>
     </div>
   </div>
 
   <div class="row pattern__usage">
     <div class="col-xs-12 col-md-12">
-      <h4>Supported Gestures</h4>
+      <h2>Supported Gestures</h2>
     </div>
 
     <div class="col-xs-12 col-md-6">
@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  <h4>Examples</h4>
+  <h2>Examples</h2>
 
 
   <br>
@@ -460,9 +460,7 @@
           <mat-card-title>This is the title</mat-card-title>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.
+            tempor incididunt ut
           </p>
         </mat-card-content>
         <div>
@@ -486,8 +484,6 @@
           <mat-card-title>This is the title</mat-card-title>
           <p>
             The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-            bred for hunting.
           </p>
           <mat-card-actions class="card-default-landscape-actions">
             <button mat-button class="flat-button">
@@ -512,8 +508,6 @@
           <mat-card-title>This is the title</mat-card-title>
           <p>
             The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-            bred for hunting.
           </p>
           <mat-card-actions class="card-default-landscape-actions">
             <button mat-button class="flat-button">
@@ -583,7 +577,7 @@
   <!-- End of Tenth row -->
 
 
-  <button class="mdc-button mdc-button--raised code-example-trigger"
+  <button mat-raised-button
     data-toggle="collapse" data-target="#collapseExample"
     aria-expanded="false" aria-controls="collapseExample">
     Show Code
