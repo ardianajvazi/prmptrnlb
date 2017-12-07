@@ -2,12 +2,16 @@
 
 Node.js and NPM : Download Node.js from https://nodejs.org/en/download and install on your system. NPM comes bundled with Node.js
 
-Install npm packages : In terminal or command line go to your project root directory (inside the prmptrnlb) and run npm install command, it will download all the dependencies under node_modules folder.
-
 
 ### Running Server
 
-Run ``` npm install ``` in your terminal or command line then navigate to `http://localhost:3001/`. The app will automatically reload if you change any of the source files.
+```
+npm install  <!-- this will install all the dependencies-->
+npm start <!-- this will build and run on localhost:3001-->
+
+The app will automatically reload if you change any of the source files.
+
+```
 
 
 ### Adding a new feature
