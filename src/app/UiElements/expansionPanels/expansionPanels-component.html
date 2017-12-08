@@ -1,23 +1,234 @@
 <div class="container">
-  <h1>Expansion Panels</h1>
-  <p>Description here.</p>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Expansion Panels</h1>
+      <p>Expansion panels contain creation flows and allow lightweight editing of an element.
+      <p>An expansion panel is a lightweight container that may either stand alone or be connected to a larger surface, such as a card.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Usage</h2>
+      <mat-list>
+        <mat-list-item>Editing</mat-list-item>
+        <mat-list-item>Creating flows</mat-list-item>
+        <mat-list-item>FAQs</mat-list-item>
+      </mat-list>
+    </div>
+    <div class="col-md-6">
+      <h2>Behavior</h2>
+      <mat-list>
+        <mat-list-item>Expand</mat-list-item>
+        <mat-list-item>Collapse</mat-list-item>
+        <mat-list-item>Focus</mat-list-item>
+      </mat-list>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Usage information here.</p>
+      <p><a href="" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
+    </div>
+  </div>
 
-  <h2>Usage</h2>
-  <p>Usage information here.</p>
 
-  <p><a href="" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
 
   <h4 >Examples</h4>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-10">
+      <h3>Single Expansion Panel Rested State</h3>
       <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Hearing Hardware (hearing aids, ear molds, etc.)
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel> </mat-accordion>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <h3>Group Expansion Panel Rested State</h3>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Hearing Hardware (hearing aids, ear molds, etc.)
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Routine Hearing Exam
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+            <p>There is a range of costs for this service/product.</p>
+            <p>Your estimated cost (In Network)</p>
+            <h1 class="mat-display-2 expansion-panel-number-color">$25</h1>
+            <p>Deductible</p>
+            <p>This service./product is not subject to your deductible</p>
+            <p>Coverage limit</p>
+            <p>You've made 0 visits for this service during this plan year. You have 1 visit remaining until your plan year resets on June 1, 2018</p>
+            <mat-action-row>
+              <button mat-button color="primary">More benefit details</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Speech Therapy
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Medical Emergency
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <h3>Single Expansion Panel Rested State with status</h3>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Hearing Hardware (hearing aids, ear molds, etc.)
+            </mat-panel-title>
+            <mat-panel-description>
+              <mat-icon class="expansion-panel-success-icon">check circle</mat-icon>
+              <span class="expansion-panel-success-icon-text">Success</span>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <h3>Group Expansion Panel Rested State with status</h3>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Hearing Hardware (hearing aids, ear molds, etc.)
+            </mat-panel-title>
+            <mat-panel-description>
+              <mat-icon class="expansion-panel-success-icon">check circle</mat-icon>
+              <span class="expansion-panel-success-icon-text">Success</span>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Routine Hearing Exam
+            </mat-panel-title>
+            <mat-panel-description>
+              <mat-icon class="expansion-panel-success-icon">check circle</mat-icon>
+              <span class="expansion-panel-success-icon-text">Success</span>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+            <p>There is a range of costs for this service/product.</p>
+            <div class="row">
+              <div class="col-md-4">
+                <p>Service/product cost</p>
+                <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+              </div>
+              <div class="col-md-4">
+                <p>Your estimated cost (In Network)</p>
+                <h1 class="mat-display-2 expansion-panel-number-color">$1,067.38</h1>
+              </div>
+            </div>
+            <p>Deductible</p>
+            <p>This service./product is not subject to your deductible</p>
+            <p>Coverage limit</p>
+            <p>You've made 0 visits for this service during this plan year. You have 1 visit remaining until your plan year resets on June 1, 2018</p>
+            <mat-action-row>
+              <button mat-button color="primary">More benefit details</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+            Speech Therapy
+            </mat-panel-title>
+            <mat-panel-description>
+              <mat-icon class="expansion-panel-error-icon">error</mat-icon>
+              <span class="expansion-panel-error-icon-text">Attention required</span>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Medical Emergency
+            </mat-panel-title>
+            <mat-panel-description>
+              <mat-icon class="expansion-panel-success-icon">check circle</mat-icon>
+              <span class="expansion-panel-success-icon-text">Success</span>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+            <p>This is the expanded view</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10">
+      <h3>FAQs Expanded Expansion Panels</h3>
+      <mat-expansion-panel class="faqs-expansion-panels">
+        <mat-expansion-panel-header>
+          Are preventive benefits really free?
+        </mat-expansion-panel-header>
+        <p>This is the primary content of the panel.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel class="faqs-expansion-panels">
+        <mat-expansion-panel-header>
+          What are the facility charges, and are they covered?
+        </mat-expansion-panel-header>
+        <p>
+          Some health care facilities such as some hospitals or outpatient clinics
+           will add what's called a facility fee to healthcare bills.
+           These charges are intended to help hospitals provide specialty services.
+           Your facility fee does count toward your deductible or coinsurance (if applicable).
+        </p>
+      </mat-expansion-panel>
+      <mat-expansion-panel class="faqs-expansion-panels">
+        <mat-expansion-panel-header>
+          How do I cancel my coverage?
+        </mat-expansion-panel-header>
+        <p>This is the primary content of the panel.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel class="faqs-expansion-panels">
+        <mat-expansion-panel-header>
+          I have a Premera health savings account(HSA) that I would like to use to pay for medical care. What do I need to know?
+        </mat-expansion-panel-header>
+        <p>This is the primary content of the panel.</p>
+      </mat-expansion-panel>
+      <!-- <mat-accordion>
         <mat-expansion-panel>
           <mat-expansion-panel-header>
             <mat-panel-title>
               Personal data
             </mat-panel-title>
             <mat-panel-description>
-              Type your name and age
+              <mat-icon class="expansion-panel-success-icon">check circle</mat-icon>
+              <span class="expansion-panel-success-icon-text">Success</span>
             </mat-panel-description>
           </mat-expansion-panel-header>
 
@@ -41,25 +252,27 @@
           </mat-expansion-panel-header>
           <p>I'm visible because I am open</p>
         </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-
-  </div>
-
-  [EXAMPLES HERE]
-
-  <button mat-raised-button
-    data-toggle="collapse" data-target="#code-examples"
-    aria-expanded="false" aria-controls="code-examples">
-    Toggle Code
-  </button>
-
-  <div class="collapse" id="code-examples">
-    <div class="card card-body">
-      <h4 >The Code</h4>
-      <p><a href="">View Documentation</a></p>
-
-      [CODE HERE]
+      </mat-accordion> -->
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>[EXAMPLES HERE]</h3>
+      <button mat-raised-button
+        data-toggle="collapse" data-target="#code-examples"
+        aria-expanded="false" aria-controls="code-examples">
+        Toggle Code
+      </button>
+      <div class="collapse" id="code-examples">
+        <div class="card card-body">
+          <h4 >The Code</h4>
+          <p><a href="">View Documentation</a></p>
+
+          [CODE HERE]
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>

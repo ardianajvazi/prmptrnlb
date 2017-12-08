@@ -1,3 +1,47 @@
 mat-expansion-panel {
-  margin: 0px;
+  // margin: 0px;
+  width: 775px;
+}
+mat-expansion-panel-header {
+  border-bottom: 1px solid #E0E0E0;
+}
+.mat-expansion-panel-header {
+  height: 60px !important;
+}
+.mat-expansion-panel-header-description {
+  flex-grow: 0;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+.mat-expansion-panel-header-title {
+  flex-grow: 1;
+}
+.expansion-panel-success-icon {
+  background-color: #389B38;
+  color: #fff;
+  border-radius: 50%;
+}
+.expansion-panel-success-icon-text {
+  color: #389B38;
+  margin-left: 5px;
+
+}
+.expansion-panel-error-icon {
+  color: #DE1A0C;
+}
+.expansion-panel-error-icon-text {
+  color: #DE1A0C;
+  margin-left: 5px;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.expansion-panel-number-color {
+  color: #0099D8;
+}
+
+.faqs-expansion-panels {
+  box-shadow: none !important;
 }

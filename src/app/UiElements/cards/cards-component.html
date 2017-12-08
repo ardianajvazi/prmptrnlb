@@ -1,21 +1,27 @@
 <!-- CARDS -->
 <section class="container">
   <a name="cards"></a>
-  <h1>Cards</h1>
-  <p class="lead">A card is a sheet of material that serves as an entry point to more detailed information. Cards display content composed of different elements whose size or supported actions vary.</p>
-
-  <h2>Usage</h2>
-  <p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length. Use a card layout when displaying content that:</p>
-  <mat-list>
-    <mat-list-item>1. As a collection, comprises multiple data types, such as images, movies, and text</mat-list-item>
-    <mat-list-item>2. Does not require direct comparison (a user is not directly comparing images or text)</mat-list-item>
-    <mat-list-item>3. Supports content of highly variable length, such as comments</mat-list-item>
-    <mat-list-item>4. Contains interactive content, such as +1 buttons or comments</mat-list-item>
-    <mat-list-item>5. Would otherwise be in a grid list but needs to display more content to supplement the image</mat-list-item>
-  </mat-list>
-  <p><a href="https://material.io/guidelines/components/cards.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
-
-  <div class="row pattern__usage">
+  <div class="row">
+    <div class="col-md-10">
+      <h1>Cards</h1>
+      <p class="lead">A card is a sheet of material that serves as an entry point to more detailed information. Cards display content composed of different elements whose size or supported actions vary.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <h2>Usage</h2>
+      <p>Cards are a convenient means of displaying content composed of different elements. They’re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length. Use a card layout when displaying content that:</p>
+      <mat-list>
+        <mat-list-item>1. As a collection, comprises multiple data types, such as images, movies, and text</mat-list-item>
+        <mat-list-item>2. Does not require direct comparison (a user is not directly comparing images or text)</mat-list-item>
+        <mat-list-item>3. Supports content of highly variable length, such as comments</mat-list-item>
+        <mat-list-item>4. Contains interactive content, such as +1 buttons or comments</mat-list-item>
+        <mat-list-item>5. Would otherwise be in a grid list but needs to display more content to supplement the image</mat-list-item>
+      </mat-list>
+      <p><a href="https://material.io/guidelines/components/cards.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines</a></p>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-xs-12 col-md-6">
       <h2>Behavior</h2>
       <p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field).</p>
@@ -27,12 +33,10 @@
       <p><a href="#grid-lists">Grid Lists</a></p>
     </div>
   </div>
-
-  <div class="row pattern__usage">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <h2>Supported Gestures</h2>
     </div>
-
     <div class="col-xs-12 col-md-6">
       <p><strong>Swipe</strong></p>
       <p>The swipe gesture may be used on a per-card basis. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</p>
@@ -42,6 +46,21 @@
       <p><strong>Pick Up And Move</strong></p>
       <p>The pick-up-and-move gesture may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</p>
     </div>
+  </div>
+
+
+
+  <div class="row">
+    <h2>Supported Gestures</h2>
+      <div class="col-xs-12 col-md-5">
+        <p><strong>Swipe</strong></p>
+        <p>The swipe gesture may be used on a per-card basis. Limit swipe gestures within a view so that they don’t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</p>
+      </div>
+
+      <div class="col-xs-12 col-md-5">
+        <p><strong>Pick Up And Move</strong></p>
+        <p>The pick-up-and-move gesture may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</p>
+      </div>
   </div>
 
   <h2>Examples</h2>
