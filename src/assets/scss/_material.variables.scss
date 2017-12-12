@@ -1,19 +1,19 @@
 @import '~@angular/material/theming/';
 $premera: (
-  50: #0099d8,
-  100: #0099d8,
-  200: #0099d8,
-  300: #0099d8,
-  400: #0099d8,
+  50: #E7F5FB,
+  100: #B9E3F4,
+  200: #8BD0ED,
+  300: #5CBEE6,
+  400: #2EABDF,
   500: #0099d8,
-  600: #0099d8,
-  700: #0099d8,
-  800: #0099d8,
-  900: #0099d8,
-  A100: #0099d8,
-  A200: #0099d8,
-  A400: #0099d8,
-  A700: #0099d8,
+  600: #007EB1,
+  700: #00628A,
+  800: #004663,
+  900: #002A3B,
+  A100: #DD6162,
+  A200: #DD6162,
+  A400: #DD6162,
+  A700: #DD6162,
   contrast: (
     50: $black-87-opacity,
     100: $black-87-opacity,
@@ -33,10 +33,11 @@ $premera: (
 );
 
 
-$premera-primary: mat-palette($premera,800);
-$premera-accent:  mat-palette($mat-cyan);
-$premera-warn: mat-palette($mat-red,600);
+$premera-primary: mat-palette($premera);
+$premera-accent:  mat-palette($premera, A400);
+$premera-warn: mat-palette($premera, A400);
 $premera-theme: mat-light-theme($premera-primary, $premera-accent, $premera-warn);
+$premera-coral: mat-light-theme($premera-accent, $premera-warn);
 
 @include mat-core();
 
@@ -44,12 +45,11 @@ $secondary-primary: mat-palette($mat-blue,800);
 $secondary-accent:  mat-palette($mat-cyan,400);
 $secondary-warn: mat-palette($mat-pink);
 $secondary-theme: mat-dark-theme($secondary-primary, $secondary-accent, $secondary-warn);
-$secondary-background: map-get($secondary-theme, background);
-$secondary-foreground: map-get($secondary-theme, foreground);
 
 
 // Default Theme
 @include angular-material-theme($premera-theme);
+@include mat-datepicker-theme($premera-coral);
 
 // Dark Theme
 .premera-secondary {

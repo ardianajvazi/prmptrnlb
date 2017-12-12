@@ -2,7 +2,7 @@
 @import "bootstrap.scss";
 // Core Variables and Mixins
 @import "app.variables";
-@import "mixins";
+// @import "mixins";
 // Core Styles
 @import "core";
 // @import "material";
@@ -24,7 +24,6 @@ html {
 }
 
 body {
-  display: flex;
   padding: 0;
   margin: 0;
 }
@@ -34,7 +33,4 @@ body {
 }
 .row {
   margin-bottom: 50px;
-}
-.mat-progress-bar-buffer {
-  background-color: #E0E0E0;
 }
