@@ -3,13 +3,8 @@
 }
 
 [mat-raised-button], [mat-button] {
-  font-size: 19px;
   font-family: 'Roboto'!important;
-  font-weight: medium !important;
   height: 42px !important;
-  &[mat-button-sm] {
-    font-size: 19px;
-  }
 }
 
 .primary-raised-button {

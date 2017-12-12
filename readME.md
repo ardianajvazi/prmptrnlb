@@ -2,20 +2,28 @@
 
 Node.js and NPM : Download Node.js from https://nodejs.org/en/download and install on your system. NPM comes bundled with Node.js
 
-angular-cli : Install angular-cli by executing npm install -g @angular/cli command on your your terminal or command prompt. For more details visit https://github.com/angular/angular-cli. Depending on the version of node you have installed you might not need this.
+```
+git clone <Repo_URL>
+cd into that repo
 
-Install npm packages : In terminal or command line go to your project root directory (inside the angular2MaterialPatternLibrary) and run npm install command, it will download all the dependencies under node_modules folder.
+once you are in that folder run commands below
 
-Using CLI
+```
 
 ### Running Server
 
-Run ``` npm install ``` in your terminal then navigate to `http://localhost:3001/`. The app will automatically reload if you change any of the source files.
+In your Terminal run these commands
+
+```
+npm install
+npm start
+
+```
 
 
 ### Adding a new feature
 
-1. In the app/ folder create a new folder with a name that matches the feature you want to add.
+1. In the app/ folder create a new folder with a name that matches the feature you want to add app/example.
 2. In that folder you create add 3 files example-component.html, example-component.scss and example-component.ts
 3.
 in the example-component.ts file add this.

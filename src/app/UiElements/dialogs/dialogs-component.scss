@@ -1,0 +1,81 @@
+@import "../buttons/buttons-component.scss";
+
+.dialogs-actions-buttons {
+  float: right;
+  padding-top: 0px;
+}
+
+.dialog-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.dialog-content {
+  height: 100px;
+}
+
+.dialog-content-scroll {
+  height: 100px;
+}
+
+.dialog-disable-button {
+  color: #DD6162;
+}
+.dialog-button {
+  margin: 10px;
+}
+
+.dialog-plans-list {
+  margin: 10px 10px 0px 10px;
+}
+
+.mat-dialog-container {
+  padding: 24px 24px 0px 24px !important;
+}
+
+.add-icon-background {
+  background: #63666A;
+}
+
+.person-icon-background {
+  background: #0099D8;
+}
+
+.dialog-listitem-display {
+  display: flex;
+}
+
+.dialog-button-float {
+  float: left;
+}
+
+.dialog-button-text-right {
+  margin: auto auto auto 15px;
+  float: left;
+}
+
+.dialog-icons {
+  font-size: 40px !important;
+  line-height: 0.6;
+  width: 40px;
+}
+
+.dialog-listitem-hover:hover {
+  cursor: pointer;
+  background-color: #F5F5F5;
+}
+
+.dialog-list-title {
+  padding-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+//

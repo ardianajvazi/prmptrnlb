@@ -49,18 +49,25 @@ import { WizardStepperComponent } from './Patterns/wizardStepper/wizardStepper-c
 
 // UI Elements
 import { UiElementsComponent } from './UiElements/uiElements-component';
+import { AutocompleteComponent } from './UiElements/autocomplete/autocomplete-component';
 import { ButtonsComponent } from './UiElements/buttons/buttons-component';
 import { CarouselComponent } from './UiElements/carousel/carousel-component';
 import { CardsComponent } from './UiElements/cards/cards-component';
 import { ChartsGraphsComponent } from './UiElements/chartsGraphs/chartsGraphs-component';
+import { CheckboxesComponent } from './UiElements/checkboxes/checkboxes-component';
 import { ChipsComponent } from './UiElements/chips/chips-component';
 import { DatePickerComponent } from './UiElements/datePicker/datePicker-component';
 import { DialogsComponent } from './UiElements/dialogs/dialogs-component';
 import { ExpansionPanelsComponent } from './UiElements/expansionPanels/expansionPanels-component';
 import { GridListsComponent } from './UiElements/gridLists/gridLists-component';
+import { ListsComponent } from './UiElements/lists/lists-component';
+import { RadiobuttonsComponent } from './UiElements/radioButtons/radiobuttons-component';
+import { SelectdropdownComponent } from './UiElements/selectDropdown/selectdropdown-component';
+import { SlidersComponent } from './UiElements/sliders/sliders-component';
 import { SnackbarsComponent } from './UiElements/snackbars/snackbars-component';
 import { TablesComponent } from './UiElements/tables/tables-component';
 import { TextFieldsComponent } from './UiElements/textFields/textFields-component';
+import { ToggleComponent } from './UiElements/toggles/toggle-component';
 import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
 
 const appRoutes: Routes = [
@@ -112,18 +119,25 @@ const appRoutes: Routes = [
 
   // UI Elements Routes
   { path: 'ui-elements', component: UiElementsComponent },
+  { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'buttons', component: ButtonsComponent },
   { path: 'carousel', component: CarouselComponent },
   { path: 'cards', component: CardsComponent },
   { path: 'charts-graphs', component: ChartsGraphsComponent },
+  { path: 'checkboxes', component: CheckboxesComponent },
   { path: 'chips', component: ChipsComponent },
   { path: 'date-picker', component: DatePickerComponent },
   { path: 'dialogs', component: DialogsComponent },
   { path: 'expansion-panels', component: ExpansionPanelsComponent },
   { path: 'grid-lists', component: GridListsComponent },
+  { path: 'lists', component: ListsComponent },
+  { path: 'radio-buttons', component: RadiobuttonsComponent },
+  { path: 'select-dropdown', component: SelectdropdownComponent },
+  { path: 'sliders', component: SlidersComponent },
   { path: 'snackbars', component: SnackbarsComponent },
   { path: 'tables', component: TablesComponent },
   { path: 'text-fields', component: TextFieldsComponent },
+  { path: 'toggles', component: ToggleComponent },
   { path: 'toolbars', component: ToolbarsComponent }
 
 ];

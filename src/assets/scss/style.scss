@@ -2,7 +2,7 @@
 @import "bootstrap.scss";
 // Core Variables and Mixins
 @import "app.variables";
-@import "mixins";
+// @import "mixins";
 // Core Styles
 @import "core";
 // @import "material";
@@ -24,37 +24,13 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-size: 19px;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  min-height: 100%;
 }
 
-
-
-/* NOT SURE WHERE TO PUT THIS
-=============================================================== */
-
-/* LISTS */
-.mdc-list {
-
-  /* Create NEW LIST STYLE that has full-width borders between list items and appropriate padding */
-
-  /* New modifier class */
-  &.mdc-list--separated {
-    padding: 0;
-
-    li {
-      border-bottom: 1px solid #CCC;
-      padding-left: 20px;
-      padding-right: 20px;
-
-      &:last-child {
-        border: none;
-      }
-    }
-  }
+.container {
+  width: 100%;
+}
+.row {
+  margin-bottom: 50px;
 }

@@ -1,112 +1,96 @@
-<h1 class="mdc-typography--display2">Dialogs</h1>
-<p class="mdc-typography--headline">Dialogs inform users about a specific task and may contain critical information, require decisions, or involve multiple tasks.</p>
+<div class="container">
+  <h1 class="mat-display-1">Dialogs</h1>
+  <p>Dialogs inform users about a specific task and may contain critical information, require decisions, or involve multiple tasks.</p>
 
-<h2 class="mdc-typography--display1">Usage</h2>
-<p>Dialogs contain text and UI controls. They retain focus until dismissed or a required action has been taken. Use dialogs sparingly because they are interruptive.</p>
-<p>Some dialog types include:</p>
-<ul>
-  <li>Alerts are urgent interruptions that inform about a situation and require acknowledgement.</li>
-  <li>Simple menus display options for list items, whereas simple dialogs can provide details or actions about a list item.</li>
-  <li>Confirmation dialogs require users to explicitly confirm a choice.</li>
-</ul>
-<p><a href="https://material.io/guidelines/components/dialogs.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
+  <h2>Usage</h2>
+  <p>Dialogs contain text and UI controls. They retain focus until dismissed or a required action has been taken. Use dialogs sparingly because they are interruptive.</p>
+  <p>Some dialog types include:</p>
+  <ul>
+    <li>Alerts are urgent interruptions that inform about a situation and require acknowledgement.</li>
+    <li>Simple menus display options for list items, whereas simple dialogs can provide details or actions about a list item.</li>
+    <li>Confirmation dialogs require users to explicitly confirm a choice.</li>
+  </ul>
+  <p><a href="https://material.io/guidelines/components/dialogs.html" target="_blank" class="pattern__usage__guide-link">View Material Design Guidelines <i class="material-icons">open_in_new</i></a></p>
 
-<div class="row pattern__usage">
-  <div class="col-xs-12 col-sm-6">
-    <h4 class="mdc-typography--headline">Behavior</h4>
-    <p>Dialogs should never be obscured, either by other elements or the screen edge. Dialogs always retain focus until dismissed or a required action has been taken.</p>
+  <div class="row pattern__usage">
+    <div class="col-xs-12 col-sm-6">
+      <h4 >Behavior</h4>
+      <p>Dialogs should never be obscured, either by other elements or the screen edge. Dialogs always retain focus until dismissed or a required action has been taken.</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+      <h4 >Full Screen Dialogs (Mobile Only)</h4>
+      <p>Full-screen dialogs are best suited to complex tasks, or require an input method editor, as they group a series of tasks together before they can be saved.</p>
+    </div>
   </div>
 
-  <div class="col-xs-12 col-sm-6">
-    <h4 class="mdc-typography--headline">Full Screen Dialogs (Mobile Only)</h4>
-    <p>Full-screen dialogs are best suited to complex tasks, or require an input method editor, as they group a series of tasks together before they can be saved.</p>
+  <h2>Examples</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <button mat-raised-button (click)="openDialog()">Default Dialog</button>
+    </div>
+    <div class="col-md-4">
+      <button mat-raised-button (click)="openSecondDialog()">Dialog Disable Buttons</button>
+    </div>
+    <div class="col-md-4">
+      <button mat-raised-button (click)="openThirdDialog()">Dialog scroll</button>
+    </div>
   </div>
-</div>
-
-<h2 class="mdc-typography--display1">Examples</h2>
-<div class="row">
-  <div class="col-md-6">
-    <button mat-raised-button (click)="openDialog()">Open dialog</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <button mat-raised-button (click)="openFourthDialog()">Dialog Account</button>
+    </div>
+    <div class="col-md-4">
+      <button mat-raised-button (click)="openFifthDialog()">Dialog List</button>
+    </div>
   </div>
-</div>
 
-<aside id="mdc-dialog-example"
-  class="mdc-dialog"
-  role="alertdialog"
-  aria-labelledby="my-mdc-dialog-label"
-  aria-describedby="my-mdc-dialog-description">
-  <div class="mdc-dialog__surface">
-    <header class="mdc-dialog__header">
-      <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
-        Use Google's location service?
-      </h2>
-    </header>
-    <section id="my-mdc-dialog-description" class="mdc-dialog__body">
-      Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
-    </section>
-    <footer class="mdc-dialog__footer">
-      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
-      <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
-    </footer>
-  </div>
-  <div class="mdc-dialog__backdrop"></div>
-</aside>
-<br><br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
-<button class="mdc-button mdc-button--raised code-example-trigger"
-  data-toggle="collapse" data-target="#dialog-code"
-  aria-expanded="false" aria-controls="dialog-code">
-  Show Code
-</button>
-
-<div class="collapse" id="dialog-code">
-  <div class="card card-body">
-    <h4 class="mdc-typography--headline">The Code</h4>
-    <p><a href="">View Material Components Web Documentation</a></p>
-
-    <!--
-    <h4 class="mdc-typography--headline">HTML to initiate dialog</h4>
-    <pre><code class="language-markup">
-      <script type="prism-html-markup">
-<p><button class="mdc-button mdc-button--raised" id="default-dialog-activation">Show Dialog</button></p>
-      </script>
-    </code></pre>
-
-    <h4 class="mdc-typography--headline">JavaScript to initiate dialog</h4>
-    <pre><code class="language-javascript">
-      var dialog = new mdc.dialog.MDCDialog(document.querySelector('#mdc-dialog-example'));
-      document.querySelector('#default-dialog-activation').addEventListener('click', function (evt) {
-      dialog.lastFocusedTarget = evt.target;
-      dialog.show();
-      })
-    </code></pre>
-
-    <h4 class="mdc-typography--headline">Dialog HTML</h4>
-    <pre><code class="language-markup">
-      <script type="prism-html-markup">
-        <aside id="mdc-dialog-example"
-        class="mdc-dialog"
-        role="alertdialog"
-        aria-labelledby="my-mdc-dialog-label"
-        aria-describedby="my-mdc-dialog-description">
-        <div class="mdc-dialog__surface">
-        <header class="mdc-dialog__header">
+  <aside id="mdc-dialog-example"
+    class="mdc-dialog"
+    role="alertdialog"
+    aria-labelledby="my-mdc-dialog-label"
+    aria-describedby="my-mdc-dialog-description">
+    <div class="mdc-dialog__surface">
+      <header class="mdc-dialog__header">
         <h2 id="my-mdc-dialog-label" class="mdc-dialog__header__title">
-          Use Googles location service
+          Use Google's location service?
         </h2>
-        </header>
-        <section id="my-mdc-dialog-description" class="mdc-dialog__body">
+      </header>
+      <section id="my-mdc-dialog-description" class="mdc-dialog__body">
         Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
-        </section>
-        <footer class="mdc-dialog__footer">
+      </section>
+      <footer class="mdc-dialog__footer">
         <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
         <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
-        </footer>
-        </div>
-        <div class="mdc-dialog__backdrop"></div>
-        </aside>
-      </script>
-    </code></pre>
-  -->
+      </footer>
+    </div>
+    <div class="mdc-dialog__backdrop"></div>
+  </aside>
+  <br><br>
+
+  <button mat-raised-button
+    data-toggle="collapse" data-target="#dialog-code"
+    aria-expanded="false" aria-controls="dialog-code">
+    Show Code
+  </button>
+
+  <div class="collapse" id="dialog-code">
+    <div class="card card-body">
+      <h4 >The Code</h4>
+      <p><a href="">View Material Components Web Documentation</a></p>
+    </div>
   </div>
 </div>

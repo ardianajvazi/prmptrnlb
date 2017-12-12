@@ -19,14 +19,20 @@
 .top-toolbar {
   z-index: 10;
   position: fixed;
-  min-height: 130px;
+  min-height: 150px;
   // background-color: #f0f9fd !important;
 }
 .mat-drawer {
   position: fixed !important;
-  top: 130px !important;
+  top: 150px !important;
 }
 
 .navLinksHover {
   padding-left: 15px;
+}
+
+.sidenav-font-family-weight {
+  font-family: 'Roboto' !important;
+  font-size: 18px !important;
+  // font-weight: 600 !important;
 }
