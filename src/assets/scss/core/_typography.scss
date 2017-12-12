@@ -1,69 +1,73 @@
+@import '~@angular/material/theming/';
+$config: mat-typography-config();
+
+$premera-typography: mat-typography-config(
+  $font-family: 'Lora, serif',
+  $display-2: mat-typography-level(58px, 72px, 400),
+  $display-1: mat-typography-level(46px, 58px, 400),
+  $headline: mat-typography-level(37px, 46px, 400),
+  $title: mat-typography-level(30px, 37px, 400),
+  $subheading-2: mat-typography-level(24px, 30px, 400),
+  $subheading-1: mat-typography-level(19px, 24px, 500),
+  $body-2: mat-typography-level(19px, 31px, 500),
+  $body-1: mat-typography-level(19px, 20px, 300),
+  $caption: mat-typography-level(16px, 22.4px, 300),
+  $button: mat-typography-level(19px, 43px, 500)
+);
+// $premera-font-family: mat-typography-config(
+//   $font-family: 'Lora, monospace'
+// );
+
+@include angular-material-typography($premera-typography)
+// @include mat-list-typography($premera-typography);
+
+// @include mat-core($premera-font-family);
+// @include mat-base-typography($premera-typography);
+
+
 /* $typography
  ------------------------------------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    margin-bottom: $headings-margin-bottom;
-    color: $headings-color;
-    font-weight: bold;
-    margin-top: 0;
-}
+
 h1,
 .h1 {
-    font-size: $font-size-h1;
-    color:$h1-font-color;
+  @include mat-typography-level-to-styles($premera-typography, headline);
 }
 h2,
 .h2 {
-    font-size: $font-size-h2;
-    color:$h2-font-color;
+    @include mat-typography-level-to-styles($premera-typography, title);
 }
 h3,
 .h3 {
-    font-size: $font-size-h3;
-    color:$h3-font-color;
+    @include mat-typography-level-to-styles($premera-typography, subheading-2);
 }
 h4,
 .h4 {
-    font-size: $font-size-h4;
-    color:$h4-font-color;
+    @include mat-typography-level-to-styles($premera-typography, subheading-1);
 }
-h5,
-.h5 {
-    font-size: $font-size-h5;
-    color:$h5-font-color;
-}
-h6,
-.h6 {
-    font-size: $font-size-h6;
-    color:$h6-font-color;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 800;
+p,
+.p {
+  @include mat-typography-level-to-styles($premera-typography, body-1);
 }
 button {
-    outline: 0;
+  @include mat-typography-level-to-styles($premera-typography, button);
 }
-figure {
-    margin: 0;
+
+
+.mat-list .mat-list-item {
+  @include mat-typography-level-to-styles($premera-typography, body-1);
 }
-hr {
-    margin-top: 0;
-    margin-bottom: 0;
-    border: 0;
+.mat-card-title {
+  @include mat-typography-level-to-styles($premera-typography, title);
 }
-strong,
-b {
-    font-weight: 700;
+
+.mat-card-content p {
+  @include mat-typography-level-to-styles($premera-typography, caption);
 }
+
+.expand-content {
+  @include mat-typography-level-to-styles($premera-typography, caption);
+}
+
+
+
+//

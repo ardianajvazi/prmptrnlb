@@ -1,26 +1,34 @@
-<div class="row">
-  <div class="col-md-8">
-    <h1>autocomplete</h1>
+<div class="container">
+  <h1>Autocomplete</h1>
+  <p>...</p>
 
-    <form class="example-form">
-      <mat-form-field class="example-full-width">
-        <input matInput placeholder="State" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl">
-        <mat-autocomplete #auto="matAutocomplete">
-          <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
-            <img style="vertical-align:middle;" aria-hidden src="{{state.flag}}" height="25" />
-            <span>{{ state.name }}</span> |
-            <small>Population: {{state.population}}</small>
-          </mat-option>
-        </mat-autocomplete>
-      </mat-form-field>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h1>Usage</h1>
+      <p>...</p>
+      <p>...</p>
+    </div>
 
-      <br />
+    <div class="col-xs-12 col-md-6">
+      <h1>What not to do</h1>
+      <p>...</p>
+      <p>...</p>
+    </div>
+  </div>
 
-      <mat-slide-toggle
-        [checked]="stateCtrl.disabled"
-        (change)="stateCtrl.disabled ? stateCtrl.enable() : stateCtrl.disable()">
-        Disable Input?
-      </mat-slide-toggle>
-    </form>
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Autocomplete</h1>
+      <form class="">
+        <mat-form-field class="autocomplete-width">
+          <input type="text" placeholder="Label" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+              {{ option }}
+            </mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+      </form>
+    </div>
   </div>
 </div>

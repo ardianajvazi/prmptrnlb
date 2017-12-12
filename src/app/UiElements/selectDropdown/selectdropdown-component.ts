@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {FormControl, Validators} from '@angular/forms';
+
 
 
 @Component({
@@ -7,9 +9,51 @@ import { Component } from '@angular/core';
     styleUrls: ['./selectdropdown-component.scss']
 })
 export class SelectdropdownComponent {
-  foods = [
-    {value: 'steak', viewValue: 'Steak'},
-    {value: 'pizza', viewValue: 'Pizza'},
-    {value: 'tacos', viewValue: 'Tacos'}
+  hide = true;
+  searchValue: string = '';
+  clearSearch() {
+    this.searchValue = null;
+  }
+  exampleInputError = new FormControl('', [Validators.required]);
+
+   getErrorMessage() {
+     return this.exampleInputError.hasError('required') ? 'Error: Explain error' : '';
+   }
+   categoryControl = new FormControl();
+
+   categoryGroups = [
+    {
+      name: 'Category 1',
+      item: [
+        { value: '', viewValue: 'Item 1' },
+        { value: '', viewValue: 'Item 2' }
+      ]
+    },
+    {
+      name: 'Category 2',
+      item: [
+        { value: '', viewValue: 'Item 1' },
+        { value: '', viewValue: 'Item 2' },
+        { value: '', viewValue: 'Item 3' }
+      ]
+    },
+    {
+      name: 'Category 3',
+      disabled: true,
+      item: [
+        { value: '', viewValue: 'Item 1' },
+        { value: '', viewValue: 'Item 2' },
+        { value: '', viewValue: 'Item 3' }
+      ]
+    },
+    {
+      name: 'Category 4',
+      item: [
+        { value: '', viewValue: 'Item 1' },
+        { value: '', viewValue: 'Item 2' },
+        { value: '', viewValue: 'Item 3' }
+      ]
+    }
   ];
+
 }
