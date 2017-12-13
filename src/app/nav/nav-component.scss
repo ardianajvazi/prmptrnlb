@@ -1,14 +1,15 @@
+$premera-header-color: #0099D8;
+$header-height: 150px;
+$drawer-content-background-color: #ffffff;
 
-.drawer-container {
-  height: 100%;
+#header {
+  height: $header-height;
 }
 
 .drawer-content {
   padding: 20px;
-  min-height: 100%;
   overflow: auto;
-  margin-top: 134px;
-  background-color: #fff;
+  background-color: $drawer-content-background-color;
 }
 .drawer-width {
   width: 250px;
@@ -20,9 +21,12 @@
   z-index: 10;
   position: fixed;
   min-height: 150px;
+  background: $premera-header-color; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, $premera-header-color 60%, #00a7b5, #67c5c9);
   // background-color: #f0f9fd !important;
 }
 .mat-drawer {
+  min-height: 100%;
   position: fixed !important;
   top: 150px !important;
 }
