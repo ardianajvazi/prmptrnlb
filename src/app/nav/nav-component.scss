@@ -5,11 +5,16 @@ $drawer-content-background-color: #ffffff;
 #header {
   height: $header-height;
 }
+.drawer-container {
+  height: 100%;
+}
 
 .drawer-content {
   padding: 20px;
+  min-height: 100%;
   overflow: auto;
-  background-color: $drawer-content-background-color;
+  // margin-top: 134px;
+  background-color: #fff;
 }
 .drawer-width {
   width: 250px;
@@ -26,7 +31,6 @@ $drawer-content-background-color: #ffffff;
   // background-color: #f0f9fd !important;
 }
 .mat-drawer {
-  min-height: 100%;
   position: fixed !important;
   top: 150px !important;
 }
