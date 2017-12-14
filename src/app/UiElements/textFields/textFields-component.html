@@ -20,7 +20,7 @@
       <div class="col-md-4">
         <h3>Core field</h3>
         <mat-form-field hintLabel="Helper text" class="text-field-input-width">
-          <input matInput placeholder="Label" required>
+          <input matInput placeholder="Label">
         </mat-form-field>
       </div>
       <div class="col-md-4">
@@ -32,7 +32,7 @@
       <div class="col-md-4">
         <h3>Error</h3>
         <mat-form-field hintLabel="Helper text" class="text-field-input-width">
-          <input matInput placeholder="Label"  [formControl]="exampleInputError" required>
+          <input matInput placeholder="Label"  [formControl]="exampleInputError">
           <mat-error *ngIf="exampleInputError.invalid">{{getErrorMessage()}}</mat-error>
         </mat-form-field>
       </div>
@@ -57,6 +57,22 @@
       <mat-form-field class="text-field-input-width">
         <input matInput #input maxlength="5" placeholder="Single line input">
         <mat-hint align="end">{{input.value?.length || 0}}/5</mat-hint>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Prefix</h3>
+      <mat-form-field class="text-field-input-width">
+        <input matInput placeholder="Amount" type="number" class="example-right-align">
+        <span matPrefix>$&nbsp;</span>
+      </mat-form-field>
+    </div>
+    <div class="col-md-4">
+      <h3>Suffix</h3>
+      <mat-form-field class="text-field-input-width">
+        <input matInput placeholder="Weight" type="number" class="example-right-align">
+        <span matSuffix>lb</span>
       </mat-form-field>
     </div>
   </div>

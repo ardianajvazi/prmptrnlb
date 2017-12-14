@@ -3,26 +3,27 @@ $config: mat-typography-config();
 
 $premera-typography: mat-typography-config(
   $font-family: 'Lora, serif',
-  $display-2: mat-typography-level(58px, 72px, 400),
-  $display-1: mat-typography-level(46px, 58px, 400),
-  $headline: mat-typography-level(37px, 46px, 400),
-  $title: mat-typography-level(30px, 37px, 400),
-  $subheading-2: mat-typography-level(24px, 30px, 400),
-  $subheading-1: mat-typography-level(19px, 24px, 500),
-  $body-2: mat-typography-level(19px, 31px, 500),
-  $body-1: mat-typography-level(19px, 20px, 300),
-  $caption: mat-typography-level(16px, 22.4px, 300),
-  $button: mat-typography-level(19px, 43px, 500)
+  $display-2: mat-typography-level(3.052rem, 4rem, 400),
+  $display-1: mat-typography-level(2.441rem, 3.2rem, 400),
+  $headline: mat-typography-level(1.953rem, 2.5rem, 400),
+  $title: mat-typography-level(1.563rem, 2.3rem, 400),
+  $subheading-2: mat-typography-level(1.25rem, 1.9rem, 400)
 );
-// $premera-font-family: mat-typography-config(
-//   $font-family: 'Lora, monospace'
-// );
 
-@include angular-material-typography($premera-typography)
+$premera-font-family: mat-typography-config(
+  $font-family: 'Roboto, sans-serif',
+  $subheading-1: mat-typography-level(1rem, 1.7rem, 500),
+  $body-2: mat-typography-level(1rem, 1.7rem, 500),
+  $body-1: mat-typography-level(1rem, 1.7rem, 300),
+  $caption: mat-typography-level(.8rem, 1.4rem, 300),
+  $button: mat-typography-level(1rem, 1.4rem, 400)
+);
+
+@include angular-material-typography($premera-font-family)
 // @include mat-list-typography($premera-typography);
 
 // @include mat-core($premera-font-family);
-// @include mat-base-typography($premera-typography);
+// @include mat-base-typography($premera-font-family);
 
 
 /* $typography
@@ -42,30 +43,33 @@ h3,
 }
 h4,
 .h4 {
-    @include mat-typography-level-to-styles($premera-typography, subheading-1);
+    @include mat-typography-level-to-styles($premera-font-family, subheading-1);
 }
 p,
 .p {
-  @include mat-typography-level-to-styles($premera-typography, body-1);
+  @include mat-typography-level-to-styles($premera-font-family, body-1);
 }
 button {
-  @include mat-typography-level-to-styles($premera-typography, button);
+  @include mat-typography-level-to-styles($premera-font-family, button);
 }
 
+[mat-raised-button], [mat-button] {
+  @include mat-typography-level-to-styles($premera-font-family, button);
+}
 
 .mat-list .mat-list-item {
-  @include mat-typography-level-to-styles($premera-typography, body-1);
+  @include mat-typography-level-to-styles($premera-font-family, body-1);
 }
 .mat-card-title {
   @include mat-typography-level-to-styles($premera-typography, title);
 }
 
 .mat-card-content p {
-  @include mat-typography-level-to-styles($premera-typography, caption);
+  @include mat-typography-level-to-styles($premera-font-family, body-1);
 }
 
 .expand-content {
-  @include mat-typography-level-to-styles($premera-typography, caption);
+  @include mat-typography-level-to-styles($premera-font-family, body-1);
 }
 
 

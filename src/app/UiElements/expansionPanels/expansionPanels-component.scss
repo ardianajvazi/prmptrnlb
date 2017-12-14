@@ -1,9 +1,14 @@
 mat-expansion-panel {
-  // margin: 0px;
   width: 775px;
+  background-color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
 }
-mat-expansion-panel-header {
-  border-bottom: 1px solid #E0E0E0;
+mat-expansion-panel:hover {
+  background-color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .40) !important;
+}
+mat-expansion-panel-header { // this is for the FAQs 
+  // border-bottom: 1px solid #E0E0E0;
 }
 .mat-expansion-panel-header {
   height: 60px !important;

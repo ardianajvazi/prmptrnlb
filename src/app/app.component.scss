@@ -1,0 +1,73 @@
+$premera-header-color: #0099D8;
+$header-height: 150px;
+$drawer-content-background-color: #ffffff;
+
+#header {
+  height: $header-height;
+}
+.sidenav-menu {
+  width: 120px !important;
+  height: 150px !important;
+  border-radius: 0% !important;
+  border-right: .9px solid white !important;
+  color: white !important;
+}
+@media (min-width: 900px) {
+  .sidenav-menu {
+    display: none !important;
+  }
+}
+@media (max-width: 493px) {
+  .sidenav-menu {
+    width: 80px !important;
+    height: 150px !important;
+  }
+}
+
+.sidenav-menu-icon {
+  font-size: 35px;
+  width: auto !important;
+}
+
+.ng-sidebar__content[_ngcontent-c4] {
+  position: fixed !important;
+}
+
+ aside {
+  width: 250px;
+  box-shadow: 2px 2px 2px 2px #efefef;
+  z-index: 8;
+  position: fixed !important;
+  margin-top: 150px;
+}
+
+.drawer-container {
+  height: 100%;
+}
+
+.drawer-content {
+  padding: 20px;
+  min-height: 100%;
+  overflow: auto;
+  margin-top: 134px;
+  background-color: #fff;
+}
+
+.top-toolbar {
+  z-index: 10;
+  position: fixed;
+  padding-left: 0px !important;
+  min-height: 150px;
+  background: $premera-header-color; /* For browsers that do not support gradients */
+  background: linear-gradient(to right, $premera-header-color 60%, #00a7b5, #67c5c9);
+}
+
+.navLinksHover {
+  padding-left: 15px;
+}
+
+.sidenav-font-family-weight {
+  font-family: 'Roboto' !important;
+  font-size: 18px !important;
+  // font-weight: 600 !important;
+}
