@@ -11,6 +11,7 @@ import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 import { ScrollToModule } from 'ng2-scroll-to';
+import { SidebarModule } from 'ng-sidebar';
 // Importing Material Design Components.
 import { MatAutocompleteModule,
   MatButtonModule,
@@ -56,7 +57,6 @@ import { MyAppComponent} from './app.component';
 import { RoutingModule } from "./app-routing.module";
 
 // The Components We create.
-import { NavComponent } from './nav/nav-component'
 import { HomeComponent } from './home/home-component' // using this for my testing.
 
 // Using Library
@@ -137,6 +137,7 @@ import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
 @NgModule({
 	imports: [
 		BrowserModule,
+    SidebarModule.forRoot(),
 		BrowserAnimationsModule,
 		FormsModule,
 		ReactiveFormsModule,
@@ -184,7 +185,6 @@ import { ToolbarsComponent } from './UiElements/toolbars/toolbars-component';
 	declarations: [
 		MyAppComponent,
     PrismComponent,
-    NavComponent,
     HomeComponent,
     UsingLibraryComponent,
       BuildingPrototypesComponent,

@@ -1,14 +1,10 @@
 @import "material.variables";
 @import "bootstrap.scss";
-// Core Variables and Mixins
 @import "_app.variables";
-// @import "mixins";
 // Core Styles
 @import "core";
-// @import "material";
 
 // Our custom classes these get loaded from our app/<name-of-component> folders
-@import "../../app/nav/nav-component.scss";
 @import "../../app/home/home-component.scss";
 
 @import "../../app/UsingLibrary/usingLibrary-component.scss";
