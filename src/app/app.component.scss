@@ -5,6 +5,19 @@ $drawer-content-background-color: #ffffff;
 #header {
   height: $header-height;
 }
+
+.ng-sidebar__content[_ngcontent-c4] {
+  position: fixed !important;
+}
+
+ aside {
+  width: 250px;
+  box-shadow: 2px 2px 2px 2px #efefef;
+  z-index: 8;
+  position: fixed !important;
+  margin-top: 150px;
+}
+
 .drawer-container {
   height: 100%;
 }
@@ -13,13 +26,8 @@ $drawer-content-background-color: #ffffff;
   padding: 20px;
   min-height: 100%;
   overflow: auto;
-  // margin-top: 134px;
+  margin-top: 134px;
   background-color: #fff;
-}
-.drawer-width {
-  width: 250px;
-  box-shadow: 2px 2px 2px 2px #efefef;
-  z-index: 8;
 }
 
 .top-toolbar {
@@ -28,11 +36,6 @@ $drawer-content-background-color: #ffffff;
   min-height: 150px;
   background: $premera-header-color; /* For browsers that do not support gradients */
   background: linear-gradient(to right, $premera-header-color 60%, #00a7b5, #67c5c9);
-  // background-color: #f0f9fd !important;
-}
-.mat-drawer {
-  position: fixed !important;
-  top: 150px !important;
 }
 
 .navLinksHover {
