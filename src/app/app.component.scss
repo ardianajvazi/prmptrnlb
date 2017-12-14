@@ -5,6 +5,29 @@ $drawer-content-background-color: #ffffff;
 #header {
   height: $header-height;
 }
+.sidenav-menu {
+  width: 120px !important;
+  height: 150px !important;
+  border-radius: 0% !important;
+  border-right: .9px solid white !important;
+  color: white !important;
+}
+@media (min-width: 900px) {
+  .sidenav-menu {
+    display: none !important;
+  }
+}
+@media (max-width: 493px) {
+  .sidenav-menu {
+    width: 80px !important;
+    height: 150px !important;
+  }
+}
+
+.sidenav-menu-icon {
+  font-size: 35px;
+  width: auto !important;
+}
 
 .ng-sidebar__content[_ngcontent-c4] {
   position: fixed !important;
@@ -33,6 +56,7 @@ $drawer-content-background-color: #ffffff;
 .top-toolbar {
   z-index: 10;
   position: fixed;
+  padding-left: 0px !important;
   min-height: 150px;
   background: $premera-header-color; /* For browsers that do not support gradients */
   background: linear-gradient(to right, $premera-header-color 60%, #00a7b5, #67c5c9);

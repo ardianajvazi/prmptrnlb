@@ -12,14 +12,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
       <header id="header">
         <mat-toolbar class="top-toolbar" id="#grad1">
           <button
+          class="sidenav-menu"
           collapse
           type="button"
           mat-icon-button
           (click)="_toggleSidebar()"
           title="Open sidenav">
-            <mat-icon>menu</mat-icon>
+            <mat-icon class="sidenav-menu-icon">menu</mat-icon>
           </button>
-          <img src="../../assets/img/Logo_Inverse.svg" alt="Premera logo">
+          <img class="img" src="../../assets/img/Logo_Inverse.svg" alt="Premera logo">
         </mat-toolbar>
       </header>
       <ng-sidebar-container class="test">
