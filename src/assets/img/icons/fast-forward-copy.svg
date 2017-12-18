@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/favorite</title>
+    <title>Icon/fast-forward copy</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M10.6157034,20.1941078 C5.41570339,15.5941078 2,12.3 2,8.5 C2,5.4 4.4,3 7.5,3 C9.2,3 10.9,3.8 12,5.1 C13.1,3.8 14.6789723,3 16.3789723,3 C19.4789723,3 21.8380353,5.4 21.8380353,8.5 C21.8380353,12.3 18.6157034,15.5941078 13.4157034,20.1941078 L12.0157034,21.5941078 L10.6157034,20.1941078 Z" id="path-1"></path>
+        <path d="M3.09850053,18.0100897 L11.5201835,12.0100897 L3.09850053,6.01008966 L3.09850053,18.0100897 Z M12.0201835,18.0100897 L20.6610221,12.0161627 L12.0201835,6.01008966 L12.0201835,18.0100897 Z" id="path-1"></path>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/favorite">
+        <g id="Icon/fast-forward-copy">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+            <use id="Shape" fill="#0099D8" transform="translate(11.879761, 12.010090) rotate(-180.000000) translate(-11.879761, -12.010090) " xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>

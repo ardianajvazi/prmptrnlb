@@ -235,6 +235,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
         <!-- Page content -->
         <div ng-sidebar-content class="drawer-content">
           <router-outlet></router-outlet>
+          <button mat-fab scrollTo scrollYTarget="0" class="testing">
+            <mat-icon>keyboard_arrow_up</mat-icon>
+          </button>
         </div>
       </ng-sidebar-container>
     </div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/block</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.74757988,12 C1.74757988,17.5 6.5,22.1920078 12,22.1920078 C17.5,22.1920078 22,17.5 22,12 C22,6.5 17.5,2.1035888 12,2.1035888 C6.5,2.1035888 1.74757988,6.5 1.74757988,12 Z M12,4 C13.8,4 15.7748571,4.40400386 17.1748571,5.50400386 L5.50629445,17.0197979 C4.40629445,15.6197979 3.70484408,13.8 3.70484408,12 C3.70484408,7.6 7.6,4 12,4 Z M6.74752674,18.4137988 L18.5254952,6.84265235 C19.6254952,8.24265235 20.2587043,10.295334 20.2587043,12.095334 C20.2587043,16.495334 16.0350225,20.5690448 11.6350225,20.5690448 C9.83502248,20.5690448 8.14752674,19.5137988 6.74752674,18.4137988 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/block">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

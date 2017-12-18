@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/favorite</title>
+    <title>Icon/pause-circle-fill</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M10.6157034,20.1941078 C5.41570339,15.5941078 2,12.3 2,8.5 C2,5.4 4.4,3 7.5,3 C9.2,3 10.9,3.8 12,5.1 C13.1,3.8 14.6789723,3 16.3789723,3 C19.4789723,3 21.8380353,5.4 21.8380353,8.5 C21.8380353,12.3 18.6157034,15.5941078 13.4157034,20.1941078 L12.0157034,21.5941078 L10.6157034,20.1941078 Z" id="path-1"></path>
+        <path d="M1.8226756,12.0947628 C1.8226756,17.5947628 6.5,22.1895257 12,22.1895257 C17.5,22.1895257 21.9432091,17.5947628 21.9432091,12.0947628 C21.9432091,6.59476284 17.5,2.06721 12,2.06721 C6.5,2.06721 1.8226756,6.59476284 1.8226756,12.0947628 Z M11,16 L9,16 L9,8 L11,8 L11,16 L11,16 Z M15,16 L13,16 L13,8 L15,8 L15,16 L15,16 Z" id="path-1"></path>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/favorite">
+        <g id="Icon/pause-circle-fill">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>

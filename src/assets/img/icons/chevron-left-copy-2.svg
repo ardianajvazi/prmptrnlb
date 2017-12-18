@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/favorite</title>
+    <title>Icon/chevron-left Copy 2</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M10.6157034,20.1941078 C5.41570339,15.5941078 2,12.3 2,8.5 C2,5.4 4.4,3 7.5,3 C9.2,3 10.9,3.8 12,5.1 C13.1,3.8 14.6789723,3 16.3789723,3 C19.4789723,3 21.8380353,5.4 21.8380353,8.5 C21.8380353,12.3 18.6157034,15.5941078 13.4157034,20.1941078 L12.0157034,21.5941078 L10.6157034,20.1941078 Z" id="path-1"></path>
+        <polygon id="path-1" points="16.055533 6.97286077 14.655533 5.57286077 8.42713923 11.8128716 14.8064864 18.2064864 16.2064864 16.8064864 11.2271392 11.8128716"></polygon>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/favorite">
+        <g id="Icon/chevron-left-Copy-2">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+            <use id="Shape" fill="#0099D8" transform="translate(12.316813, 11.889674) scale(-1, 1) rotate(90.000000) translate(-12.316813, -11.889674) " xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>

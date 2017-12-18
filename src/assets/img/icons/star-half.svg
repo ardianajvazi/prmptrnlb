@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/favorite</title>
+    <title>Icon/star-half</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M10.6157034,20.1941078 C5.41570339,15.5941078 2,12.3 2,8.5 C2,5.4 4.4,3 7.5,3 C9.2,3 10.9,3.8 12,5.1 C13.1,3.8 14.6789723,3 16.3789723,3 C19.4789723,3 21.8380353,5.4 21.8380353,8.5 C21.8380353,12.3 18.6157034,15.5941078 13.4157034,20.1941078 L12.0157034,21.5941078 L10.6157034,20.1941078 Z" id="path-1"></path>
+        <path d="M21,9.48147368 L14.5281,8.92942105 L12,3 L9.4719,8.92942105 L3,9.48147368 L7.9095,13.7108947 L6.438,20 L12,16.6644211 L17.562,19.9991053 L16.0905,13.71 L21,9.48147368 L21,9.48147368 Z M12,14.9858947 L12,6.66394737 L13.539,10.2751053 L17.481,10.6115263 L14.4912,13.1865789 L15.3876,17.0169474 L12,14.9858947 L12,14.9858947 Z" id="path-1"></path>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/favorite">
+        <g id="Icon/star-half">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>

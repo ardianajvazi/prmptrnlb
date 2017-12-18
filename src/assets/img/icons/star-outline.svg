@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/favorite</title>
+    <title>Icon/star-outline</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M10.6157034,20.1941078 C5.41570339,15.5941078 2,12.3 2,8.5 C2,5.4 4.4,3 7.5,3 C9.2,3 10.9,3.8 12,5.1 C13.1,3.8 14.6789723,3 16.3789723,3 C19.4789723,3 21.8380353,5.4 21.8380353,8.5 C21.8380353,12.3 18.6157034,15.5941078 13.4157034,20.1941078 L12.0157034,21.5941078 L10.6157034,20.1941078 Z" id="path-1"></path>
+        <path d="M21,10.4814737 L14.5281,9.92942105 L12,4 L9.4719,9.92942105 L3,10.4814737 L7.9095,14.7108947 L6.438,21 L12,17.6644211 L17.562,21 L16.0905,14.7108947 L21,10.4814737 L21,10.4814737 Z M12,15.9858947 L8.6133,18.0169474 L9.5097,14.1865789 L6.519,11.6115263 L10.461,11.2751053 L12,7.66394737 L13.539,11.2751053 L17.481,11.6115263 L14.4912,14.1865789 L15.3876,18.0169474 L12,15.9858947 L12,15.9858947 Z" id="path-1"></path>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/favorite">
+        <g id="Icon/star-outline">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>

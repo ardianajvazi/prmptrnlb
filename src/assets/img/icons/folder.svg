@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon/favorite</title>
+    <title>Icon/folder</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M10.6157034,20.1941078 C5.41570339,15.5941078 2,12.3 2,8.5 C2,5.4 4.4,3 7.5,3 C9.2,3 10.9,3.8 12,5.1 C13.1,3.8 14.6789723,3 16.3789723,3 C19.4789723,3 21.8380353,5.4 21.8380353,8.5 C21.8380353,12.3 18.6157034,15.5941078 13.4157034,20.1941078 L12.0157034,21.5941078 L10.6157034,20.1941078 Z" id="path-1"></path>
+        <path d="M3.58694279,4.97002025 C2.47073446,4.85762697 1.24396464,5.18544289 1.47015156,7.18965021 L1.47015156,16.7555016 C1.2152165,19.3422097 2.54683895,19.38584 3.94653132,19.3122614 L19.7550507,19.3122614 C22.0840589,19.4920182 22.321887,18.5706243 22.2639721,16.9401931 L22.2639721,8.97002025 C22.2639721,7.87002025 21.3639721,6.97002025 20.2639721,6.97002025 L12,6.97002025 L10,4.97002025 L3.58694279,4.97002025 Z" id="path-1"></path>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icon/favorite">
+        <g id="Icon/folder">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
