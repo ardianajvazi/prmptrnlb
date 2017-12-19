@@ -5,7 +5,7 @@ $drawer-content-background-color: #ffffff;
 #header {
   height: $header-height;
 }
-.sidenav-menu {
+.sidenav-menu-icon {
   width: 120px !important;
   height: 150px !important;
   border-radius: 0% !important;
@@ -13,18 +13,18 @@ $drawer-content-background-color: #ffffff;
   color: white !important;
 }
 @media (min-width: 900px) {
-  .sidenav-menu {
+  .sidenav-menu-icon {
     display: none !important;
   }
 }
 @media (max-width: 493px) {
-  .sidenav-menu {
+  .sidenav-menu-icon {
     width: 80px !important;
     height: 150px !important;
   }
 }
 
-.sidenav-menu-icon {
+.sidenav-icon-menu {
   font-size: 35px;
   width: auto !important;
 }
