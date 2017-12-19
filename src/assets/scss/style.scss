@@ -1,21 +1,12 @@
 @import "material.variables";
 @import "bootstrap.scss";
-// Core Variables and Mixins
-@import "app.variables";
-@import "mixins";
+@import "_app.variables";
 // Core Styles
 @import "core";
-// @import "material";
 
 // Our custom classes these get loaded from our app/<name-of-component> folders
-@import "../../app/nav/nav-component.scss";
 @import "../../app/example/example-component.scss";
 
-// @import "../../app/UsingLibrary/usingLibrary-component.scss";
-// @import "../../app/Style/style-component.scss";
-// @import "../../app/Guidelines/guidelines-component.scss";
-// @import "../../app/patterns/patterns-component.scss";
-// @import "../../app/UiElements/uiElements-component.scss";
 
 
 /* Ensure layout covers the entire screen. ALL THIS MAY NOT BE NECESSARY NOW? */
@@ -24,11 +15,15 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  font-size: 19px;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  min-height: 100%;
+  // min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  // min-height: 100%;
+}
+.row {
+  margin-bottom: 50px;
 }

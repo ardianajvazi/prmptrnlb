@@ -1,0 +1,28 @@
+#header {
+  height: 786px;
+  background-image: url('../../assets/img/test.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.top-toolbar {
+  height: 100px;
+  opacity: 1;
+}
+.top-toolbar img {
+  padding-left: 90px;
+}
+
+.test {
+  background-color: #009AD7;
+  height: 181px;
+}
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
