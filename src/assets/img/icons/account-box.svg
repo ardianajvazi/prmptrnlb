@@ -1,0 +1,17 @@
+
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/account-box</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.07561218,19.3002464 C3.01244015,20.2957196 3.82829497,20.9490741 4.6979109,20.9271424 L19.0331471,20.9271424 C19.8344799,20.9271424 20.6611789,20.4058109 20.6424382,19.3002464 L20.6424382,4.96749814 C20.6720501,3.902606 19.7952408,3.32032002 19.0331471,3.35301479 L4.6979109,3.35301479 C3.8938738,3.31975212 3.07561218,3.86749814 3.07561218,4.96749814 L3.07561218,19.3002464 Z M15,9 C15,10.7 13.7,12 12,12 C10.3,12 9,10.7 9,9 C9,7.3 10.3,6 12,6 C13.7,6 15,7.3 15,9 L15,9 Z M6,17 C6,15 10,13.9 12,13.9 C14,13.9 18,15 18,17 L18,18 L6,18 L6,17 L6,17 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/account-box">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

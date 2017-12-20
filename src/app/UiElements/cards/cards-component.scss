@@ -42,7 +42,7 @@ mat-card:hover {
 
 .card-list-padding {
   padding-top: 0px;
-  margin: 20px;
+  margin: 20px 20px 20px 0px;
 }
 
 .card-list-padding-top {
@@ -68,14 +68,18 @@ mat-card:hover {
 .card-width-primary-landscape {
   display: flex;
   padding-bottom: 0px;
+  padding-top: 0px;
   height: 215px;
+  .mat-card-content {
+    padding-top: 20px;
+    overflow: auto;
+  }
 }
 .landscape-card-width {
   width: 650px;
 }
 .card-primary-img-landscape {
   margin-left: 35px;
-  // margin-bottom: -5px;
   width: 300px;
   height: 215px;
 }
@@ -87,11 +91,16 @@ mat-card:hover {
 .card-default-landscape-width {
   width: 650px;
   height: 215px;
+  padding-top: 0px;
+  .mat-card-content {
+    padding-top: 20px;
+    overflow: auto;
+  }
 }
 
 .card-default-img-landscape {
   margin-right: 35px;
-  margin-bottom: -5px;
+  margin-top: 0px !important;
   width: 300px !important;
   height: 215px;
 }
@@ -126,6 +135,7 @@ mat-card:hover {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
-
+.card-default-landscape-content p {
+  overflow: auto;
+}
 //

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/chevron-left Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16.055533 6.97286077 14.655533 5.57286077 8.42713923 11.8128716 14.8064864 18.2064864 16.2064864 16.8064864 11.2271392 11.8128716"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/chevron-left-Copy-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" transform="translate(12.316813, 11.889674) scale(-1, 1) rotate(90.000000) translate(-12.316813, -11.889674) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

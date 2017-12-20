@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/place</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5,9 C5,14.2 12,22.2882722 12,22.2882722 C12,22.2882722 19,14.2 19,9 C19,5.1 15.9,2 12,2 C8.1,2 5,5.1 5,9 Z M12,11.5 C10.6,11.5 9.5,10.4 9.5,9 C9.5,7.6 10.6,6.5 12,6.5 C13.4,6.5 14.5,7.6 14.5,9 C14.5,10.4 13.4,11.5 12,11.5 L12,11.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/place">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/mic-off</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,11.2 L9,5.2 L9,5 C9,3.3 10.3,2 12,2 C13.7,2 15,3.3 15,5 L15,11 L15,11.2 Z M3,4.3 L4.3,3 L21,19.7 L19.7,21 L15.5,16.8 C14.8,17.2 13.9,17.6 13,17.7 L13.043724,21.4368838 L11.043724,21.4368838 L11,17.7 C7.7,17.2 5,14.4 5,11 L6.8,11 C6.8,14 9.3,16.1 12.1,16.1 C12.9,16.1 13.7,15.9 14.4,15.6 L12.7,13.9 C12.4,14 12.2,14 12,14 C10.3,14 9,12.7 9,11 L9,10.3 L3,4.3 Z M17.2027969,11 L18.8226271,11 C18.8913376,11.9826661 18.7,13.3 18.1,14.2 L16.9,13 C17.1,12.4 17.3188819,11.6617767 17.2027969,11 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/mic-off">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

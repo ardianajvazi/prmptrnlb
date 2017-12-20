@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/call</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.8728884,16.703823 L14.8830994,14.6894925 C15.157219,14.4148111 15.5227119,14.3232507 15.7968316,14.5063716 C16.8019371,14.8726135 17.8984158,15.0557344 19.0862677,15.0557344 C19.6345071,15.0557344 20,15.4219763 20,15.9713392 L20,19.0843953 C20,19.6337581 19.6345071,20 19.0862677,20 C10.4971845,20 4,13.5222892 4,4.91560473 C4,4.36624189 4.3654929,4 4.91373226,4 L8.11179516,4 C8.66003452,4 9.02552742,4.36624189 9.02552742,4.91560473 C9.02552742,6.01433041 9.20827387,7.11305609 9.57376678,8.21178177 C9.66514,8.48646319 9.57376678,8.85270509 9.39102033,9.12738651 L7.28943613,11.1417169 C8.56866129,13.7054102 10.3144381,15.3304159 12.8728884,16.703823 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/call">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

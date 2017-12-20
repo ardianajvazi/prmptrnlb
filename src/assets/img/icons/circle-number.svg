@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/circle-number</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,11.8480983 C2,17.3480983 6.71680155,22.0424207 12.2168016,22.0424207 C17.7168016,22.0424207 22.2168016,17.3480983 22.2168016,11.8480983 C22.2168016,6.34809831 17.7168016,2 12.2168016,2 C6.71680155,2 2,6.34809831 2,11.8480983 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/circle-number">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+            <text id="2" font-family=".AppleSystemUIFont" font-size="19" font-weight="normal" fill="#000000">
+                <tspan x="6.61157461" y="18.5">2</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

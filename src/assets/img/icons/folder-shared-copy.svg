@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/folder-shared Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.2615191,6.86561922 L11.2615191,6.86561922 L9.27327742,4.76995328 L3.25921915,4.76995328 C2.25476476,4.69851697 1.16295039,5.28992451 1.26151905,6.86561922 L1.26151905,17.9088396 C1.26151905,18.5235781 1.86576004,19.449949 2.82470328,19.5058754 L20.7281122,19.5058754 C21.7369866,19.5058754 22.4496374,18.7081632 22.4496374,17.9088396 L22.4496374,8.09849126 C22.4496374,6.99849126 21.2473255,6.86561922 20.1473255,6.86561922 L19.2615191,6.86561922 Z M15,9 C16.1,9 17,9.9 17,11 C17,12.1 16.1,13 15,13 C13.9,13 13,12.1 13,11 C13,9.9 13.9,9 15,9 L15,9 Z M19,17 L11,17 L11,16 C11,14.7 13.7,14 15,14 C16.3,14 19,14.7 19,16 L19,17 L19,17 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/folder-shared-Copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/drive-ms-powerpoint Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.68564659,3.35732489 C3.72743683,3.30969254 3.02035669,4.10942592 3.08077805,4.96460814 L3.08077805,19.3045747 C3.04332325,20.3618233 3.89494601,20.9619766 4.68564659,20.9210339 L19.0225545,20.9210339 C20.1277574,20.9516738 20.673231,20.092485 20.6487977,19.3045747 L20.6487977,4.96460814 C20.6433423,4.06540669 20.0383417,3.33124604 19.0225545,3.35732489 L4.68564659,3.35732489 Z M15.4771784,17.3552988 L13.9771784,17.3552988 L11.9771784,9.85529881 L9.97717842,17.3552988 L8.47717842,17.3552988 L6.07717842,7.35529881 L7.77717842,7.35529881 L9.27717842,14.8552988 L11.2771784,7.35529881 L12.6771784,7.35529881 L14.6771784,14.8552988 L16.1771784,7.35529881 L17.8771784,7.35529881 L15.4771784,17.3552988 L15.4771784,17.3552988 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/drive-ms-powerpoint-Copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
