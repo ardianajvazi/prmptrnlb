@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/share-alt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16,9.8 L8.9,5.7 C9,5.5 9,5.2 9,5 C9,3.3 7.7,2 6,2 C4.3,2 3,3.3 3,5 C3,6.7 4.3,8 6,8 C6.8,8 7.5,7.7 8,7.2 L15.1,11.3 C15,11.5 15,11.8 15,12 C15,12.2 15,12.5 15.1,12.7 L7.84393905,16.7968405 C7.34393905,16.2968405 6.64393905,15.9968405 5.84393905,15.9968405 C4.24393905,15.9968405 2.94393905,17.2968405 2.94393905,18.8968405 C2.94393905,20.4968405 4.24393905,21.7968405 5.84393905,21.7968405 C7.44393905,21.7968405 8.74393905,20.4968405 8.74393905,18.8968405 C8.74393905,18.6968405 8.74393905,18.4968405 8.64393905,18.1968405 L15.9,14.1 C16.4,14.6 17.1,14.9 17.9,14.9 C19.6,14.9 20.9,13.6 20.9,11.9 C20.9,10.2 19.7,9 18,9 C17.2,9 16.5,9.3 16,9.8 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/share-alt">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

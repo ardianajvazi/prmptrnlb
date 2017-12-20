@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/save</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.68858337,3.35610962 C3.87733106,3.32356181 3.04428101,3.91160583 3.07789714,4.98389124 L3.07789714,19.3157501 C3.04920959,20.3928986 3.92692566,20.9620056 4.68858337,20.9206696 L19.0240326,20.9206696 C19.8343201,20.9614716 20.6876678,20.3518219 20.6341095,19.3157501 L20.6341095,6.61071777 L17.3768921,3.35610962 L4.68858337,3.35610962 Z M12,19 C10.3,19 9,17.7 9,16 C9,14.3 10.3,13 12,13 C13.7,13 15,14.3 15,16 C15,17.7 13.7,19 12,19 L12,19 Z M15,9 L5,9 L5,5 L15,5 L15,9 L15,9 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/save">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

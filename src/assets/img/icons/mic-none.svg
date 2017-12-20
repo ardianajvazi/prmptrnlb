@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/mic-none</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,11.1566459 L15,5.15664592 C15,3.45664592 13.7,2.15664592 12,2.15664592 C10.3,2.15664592 9,3.45664592 9,5.15664592 L9,11.1566459 C9,12.8566459 10.3,14.1566459 12,14.1566459 C13.7,14.1566459 15,12.8566459 15,11.1566459 Z M10.8,5.05664592 C10.8,4.35664592 11.3,3.85664592 12,3.85664592 C12.7,3.85664592 13.2,4.35664592 13.2,5.05664592 L13.2,11.2566459 C13.2,11.9566459 12.7,12.4566459 12,12.4566459 C11.3,12.4566459 10.8,11.9566459 10.8,11.2566459 L10.8,4.9 L10.8,5.05664592 Z M17.117552,11 C17.117552,14 14.8,16.1 12,16.1 C9.2,16.1 6.7,14 6.7,11 L5,11 C5,14.4 7.7,17.2 11,17.7 L11,21.4670771 L13,21.4670771 L13,17.7 C16.3,17.2 18.817552,14.4 18.817552,11 L17.3,11 L17.117552,11 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/mic-none">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>\
+        </g>
+    </g>
+</svg>

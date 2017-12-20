@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/bookmark-outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.66318155,3.32568026 C5.56318155,3.32568026 4.66318155,4.22568026 4.66318155,5.32568026 L4.69697066,20.9318542 L11.6969707,18 L19.0222473,20.9318542 L19.0222473,5.32568026 C19.0222473,4.22568026 18.0662109,3.32568026 16.9662109,3.32568026 L6.66318155,3.32568026 Z M17.0560364,18 L11.6969707,15.8 L6.69697066,18 L6.66318155,5.32568026 L17.0222473,5.32568026 L17.0560364,18 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/bookmark-outline">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,14 +1,21 @@
 @import "../buttons/buttons-component.scss";
 
-
 mat-card {
   width: 280px;
+  background-color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
 
   .mat-card-image {
     background-size: cover;
     background-repeat: no-repeat;
     height: 215px !important;
   }
+}
+mat-card:hover {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .40) !important;
 }
 
 .card-primary-img-btm {
@@ -35,7 +42,7 @@ mat-card {
 
 .card-list-padding {
   padding-top: 0px;
-  margin: 20px;
+  margin: 20px 20px 20px 0px;
 }
 
 .card-list-padding-top {
@@ -61,14 +68,18 @@ mat-card {
 .card-width-primary-landscape {
   display: flex;
   padding-bottom: 0px;
+  padding-top: 0px;
   height: 215px;
+  .mat-card-content {
+    padding-top: 20px;
+    overflow: auto;
+  }
 }
 .landscape-card-width {
   width: 650px;
 }
 .card-primary-img-landscape {
   margin-left: 35px;
-  // margin-bottom: -5px;
   width: 300px;
   height: 215px;
 }
@@ -80,11 +91,16 @@ mat-card {
 .card-default-landscape-width {
   width: 650px;
   height: 215px;
+  padding-top: 0px;
+  .mat-card-content {
+    padding-top: 20px;
+    overflow: auto;
+  }
 }
 
 .card-default-img-landscape {
   margin-right: 35px;
-  margin-bottom: -5px;
+  margin-top: 0px !important;
   width: 300px !important;
   height: 215px;
 }
@@ -119,6 +135,7 @@ mat-card {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
-
+.card-default-landscape-content p {
+  overflow: auto;
+}
 //

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/history Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.025,2 C9.35,2 6.095,4 4.415,7.05263158 L2,4.63157895 L2,11.4736842 L8.825,11.4736842 L5.885,8.52631579 C7.25,5.89473684 9.875,4.10526316 13.025,4.10526316 C17.33,4.10526316 20.9,7.68421053 20.9,12 C20.9,16.3157895 17.33,20.0994193 13.025,20.0994193 C9.56,20.0994193 6.44189255,17.6989366 5.28689255,14.646305 L3.08189255,14.646305 C4.23689255,18.8568314 8.405,22.2046825 13.025,22.2046825 C18.59,22.2046825 23,17.4736842 23,12 C23,6.52631579 18.485,2 13.025,2 L13.025,2 Z M11.45,7.26315789 L11.45,12.6315789 L16.385,15.5789474 L17.225,14.2105263 L13.025,11.6842105 L13.025,7.26315789 L11.45,7.26315789 L11.45,7.26315789 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/history-Copy-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

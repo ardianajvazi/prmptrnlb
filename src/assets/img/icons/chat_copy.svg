@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/chat copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.67401083,3.98341553 C2.70200758,3.85719155 1.60367775,4.40155168 1.78010406,5.98408774 L1.74093585,21.3699603 L5.74093585,18.3070075 L20.8963504,18.3070075 C21.3480439,18.3798391 22.5369308,18.0535496 22.5615279,16.7926972 L22.5615279,5.77835395 C22.6658457,4.52900677 21.759639,3.91495159 20.8963504,3.98341553 L3.67401083,3.98341553 Z M18.3106915,10 L18.3106915,12 L6.31069148,12 L6.31069148,10 L18.3106915,10 Z M18.3043518,15 L6.31069148,15 L6.31069148,13 L18.3043518,13 L18.3043518,15 Z M18.3106915,9 L6.31069148,9 L6.31069148,7 L18.3106915,7 L18.3106915,9 L18.3106915,9 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/chat-copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" transform="translate(12.155346, 12.667926) scale(-1, 1) translate(-12.155346, -12.667926) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
