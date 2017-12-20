@@ -3,11 +3,21 @@ mat-expansion-panel {
   background-color: white;
   box-shadow: 0 4px 14px rgba(0, 0, 0, .15) !important;
 }
+@media (max-width: 814px) {
+  mat-expansion-panel {
+    width: 500px;
+  }
+}
+@media (max-width: 537px) {
+  mat-expansion-panel {
+    width: 370px;
+  }
+}
 mat-expansion-panel:hover {
   background-color: white;
   box-shadow: 0 4px 14px rgba(0, 0, 0, .40) !important;
 }
-mat-expansion-panel-header { // this is for the FAQs 
+mat-expansion-panel-header { // this is for the FAQs
   // border-bottom: 1px solid #E0E0E0;
 }
 .mat-expansion-panel-header {
