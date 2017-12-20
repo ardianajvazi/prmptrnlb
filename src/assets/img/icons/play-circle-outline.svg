@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/play-circle-outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,16.5 L16,12 L10,7.5 L10,16.5 L10,16.5 Z M1.83877752,12 C1.83877752,17.5 6.5,22.1453961 12,22.1453961 C17.5,22.1453961 21.9642635,17.5031909 21.9642635,12.0031909 C21.9642635,6.50319094 17.5,2.00638187 12,2.00638187 C6.5,2.00638187 1.83877752,6.5 1.83877752,12 Z M3.83877752,12 C3.83877752,7.6 7.6,4.11764259 12,4.11764259 C16.4,4.11764259 19.9642635,7.60319094 19.9642635,12.0031909 C19.9642635,16.4031909 16.4,20.1453961 12,20.1453961 C7.6,20.1453961 3.83877752,16.4 3.83877752,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/play-circle-outline">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/drive-file</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.68260812,3.64608993 L4.68260812,20.5504525 C4.57159629,22.1584864 5.5710043,22.6548734 6.68260812,22.5504525 L18.6458985,22.6245591 C20.1740088,22.722847 20.7345792,21.8216187 20.6458985,20.6245591 L20.6458985,8.14540913 L14.9707813,1.75509797 L6.68260812,1.75509797 C5.11532594,1.5932111 4.61308034,2.55970757 4.68260812,3.64608993 Z M14,9 L14,3.5 L19.5,9 L14,9 L14,9 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/drive-file">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

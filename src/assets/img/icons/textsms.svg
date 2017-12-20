@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/textsms</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.11726545,3.96115546 C2.0785675,3.96115546 1.3190155,4.68737793 1.45932007,5.9413757 L1.45932007,20.9607476 L5.44314933,18.3036531 L20.2637328,18.3036531 C21.3637328,18.3036531 22.2637328,18.1032804 22.2637328,17.0032804 L22.2637328,5.9413757 C22.3899158,4.36039274 21.3240053,3.86444932 20.2637328,3.96115546 L3.11726545,3.96115546 Z M9,12 L7,12 L7,10 L9,10 L9,12 L9,12 Z M13,12 L11,12 L11,10 L13,10 L13,12 L13,12 Z M17,12 L15,12 L15,10 L17,10 L17,12 L17,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/textsms">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

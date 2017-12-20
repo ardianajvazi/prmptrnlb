@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/remove-circle-outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7,11 L7,13 L17,13 L17,11 L7,11 L7,11 Z M1.79798322,12 C1.79798322,17.5 6.5,22.2424573 12,22.2424573 C17.5,22.2424573 22,17.5 22,12 C22,6.5 17.5,2 12,2 C6.5,2 1.79798322,6.5 1.79798322,12 Z M3.79798322,12 C3.79798322,7.6 7.6,4 12,4 C16.4,4 20,7.6 20,12 C20,16.4 16.4,20.2424573 12,20.2424573 C7.6,20.2424573 3.79798322,16.4 3.79798322,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/remove-circle-outline">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/credit-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.07084845,4.96508789 C1.90200806,4.96534729 1.32165527,5.87864685 1.46236179,6.97837651 L1.46236179,17.6629983 C1.37950209,18.4092864 1.94445652,19.3445566 3.07084845,19.3087941 L20.6391341,19.3087941 C21.1293692,19.3636243 22.1729014,19.000406 22.2586729,17.8684082 L22.2586729,6.84403867 C22.3812103,5.67417908 21.5726318,4.92617798 20.6391341,4.96508789 L3.07084845,4.96508789 Z M20,17.5226739 L4,17.5226739 L4,11.5639758 L20,11.5639758 L20,18 L20,17.5226739 Z M20,8.27572336 L4,8.27572336 L4,6.30304385 L20,6.30304385 L20,8.27572336 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/credit-card">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

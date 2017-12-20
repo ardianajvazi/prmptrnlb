@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/arrow-drop-down-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.45391763,11.4070522 C1.45391763,16.9070522 6.0734958,21.5187367 11.5734958,21.5187367 C17.0734958,21.5187367 21.693074,16.9434481 21.693074,11.4434481 C21.693074,5.94344815 17.0734958,1.35117763 11.5734958,1.35117763 C6.0734958,1.35117763 1.45391763,5.90705216 1.45391763,11.4070522 Z M7.57140506,9.99422446 L15.5714051,9.99422446 L11.5714051,13.9942245 L7.57140506,9.99422446 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/arrow-drop-down-circle">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+
+        </g>
+    </g>
+</svg>

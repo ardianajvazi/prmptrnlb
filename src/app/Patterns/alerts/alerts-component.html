@@ -1,8 +1,108 @@
-<div class="container">
-  <h1>Alerts</h1>
-  <p>Description...</p>
+<div class="container" id="top">
+  <h1>Errors</h1>
+  <p>Errors occur when an app fails to complete an expected action</p>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h1>Example of errors</h1>
+      <p>
+        When user input is not understood<br>
+        An app failing to load<br>
+        Incompatible operations are run concurrently
+      </p>
+    </div>
+  </div>
 
-  <h2>Guidelines</h2>
-  <p>The guidelines, to be written by UX Team and Jen Betterley.</p>
+  <a id="designers-and-prototypers"></a>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <h1>Types of errors</h1>
+        <p>
+          User input errors<br>
+          App errors<br>
+          Incompatible state errors
+        </p>
+    </div>
 
+    <div class="col-xs-12 col-sm-6">
+      <h1>Specific error pattern</h1>
+      <p>
+        Forms<br>
+        General usage errors<br>
+        Sync errors<br>
+        Connectivity<br>
+        Permissions
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h1>User input error Example</h1>
+      <p>
+        Help users fix input errors as soon as they are detected.
+        Disable the submission of a form if errors are detected,
+        and if detected only after form submission, clearly explain
+        the error and how to fix it.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 alerts-inputs-errors">
+      <form class="alerts-form-errors">
+        <mat-form-field class="alerts-form-errors-width">
+          <input matInput placeholder="Label" [formControl]="emailFormControl"
+                 [errorStateMatcher]="matcher">
+          <mat-error class="alerts-form-errors-message" *ngIf="emailFormControl.hasError('required')">
+            <mat-icon class="alert-icon-right">error</mat-icon><span class="alert-icon-left">Error: Explain error</span>
+          </mat-error>
+        </mat-form-field>
+      </form>
+    </div>
+    <div class="col-md-6 alerts-inputs-errors">
+      <form class="alerts-form-errors">
+        <mat-form-field class="alerts-form-errors-width">
+          <input matInput placeholder="Label" [formControl]="emailFormControl"
+                 [errorStateMatcher]="matcher">
+          <mat-error class="alerts-form-errors-message" *ngIf="emailFormControl.hasError('required')">
+            <mat-icon class="alert-icon-right">error</mat-icon><span class="alert-icon-left">Error: Explain error</span>
+          </mat-error>
+        </mat-form-field>
+      </form>
+    </div>
+    <p>For more user input error example look for <a [routerLink]="['/text-fields']">Text-Fields</a> document </p>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Incompatible values</h1>
+      <h3>SHow errors for incompatible values during or after a user interacts with a text field</h3><br>
+      <h3>If two or more fields have incompatible inputs:</h3>
+      <li>In the text field, indicate a fix is needed. Add and error message below.</li>
+      <li>Display a message at the top of the form, or screen, summarizing the fixes needed and any additional explanation</li>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>CSS</h1>
+      <p>
+        Panel background: #F5F5F5 <br>
+        Type: Danger text style <br>
+        Padding: 30px <br>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Errors detected upon form submission</h1>
+      <p>
+        Reload the form with consolidated error messages and scroll position at the top. Error messages for individual fields may be resolved as the user works through the form.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <img class="img" src="../../assets/img/test.svg" alt="Premera logo">
+    </div>
+    <div class="col-md-6">
+      <img class="img" src="../../assets/img/test2.svg" alt="Premera logo">
+    </div>
+  </div>
 </div>

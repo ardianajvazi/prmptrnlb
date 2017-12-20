@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/lock-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,18 C13.1,18 14,17.1 14,16 C14,14.9 13.1,14 12,14 C10.9,14 10,14.9 10,16 C10,17.1 10.9,18 12,18 L12,18 Z M17,9 L16.9789326,6.75647815 C16.9789326,3.95647815 14.7789326,1.75647815 11.9789326,1.75647815 C9.17893258,1.75647815 7,4.2 7,7 L8.9,7 C8.9,5.3 10.2789326,3.65647815 11.9789326,3.65647815 C13.6789326,3.65647815 15.0789326,5.05647815 15.0789326,6.75647815 L15.1,9 L6,9 C4.9,9 4.47618103,9.9 4.47618103,11 L4.47618103,20.9112091 C4.47080994,21.8188629 5.09509888,22.7318729 6.19509888,22.7318729 L17.7263432,22.7318729 C18.7881871,22.7318729 19.5397588,21.9143066 19.472437,20.8041687 L19.496815,11 C19.496815,9.9 19.3492314,9 18.2492314,9 L17,9 Z M18,21 L6,21 L6,11 L18,11 L18,21 L18,21 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/lock-open">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/fast-forward copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.09850053,18.0100897 L11.5201835,12.0100897 L3.09850053,6.01008966 L3.09850053,18.0100897 Z M12.0201835,18.0100897 L20.6610221,12.0161627 L12.0201835,6.01008966 L12.0201835,18.0100897 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/fast-forward-copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" transform="translate(11.879761, 12.010090) rotate(-180.000000) translate(-11.879761, -12.010090) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

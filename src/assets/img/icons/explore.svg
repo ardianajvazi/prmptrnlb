@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/explore</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,10.9 C11.4,10.9 10.9,11.4 10.9,12 C10.9,12.6 11.4,13.1 12,13.1 C12.6,13.1 13.1,12.6 13.1,12 C13.1,11.4 12.6,10.9 12,10.9 L12,10.9 Z M1.81801279,12 C1.81801279,17.5 6.5,22.2080164 12,22.2080164 C17.5,22.2080164 21.929513,17.5 21.929513,12 C21.929513,6.5 17.5,2.0271765 12,2.0271765 C6.5,2.0271765 1.81801279,6.5 1.81801279,12 Z M14.2,14.2 L6,18 L9.8,9.8 L18,6 L14.2,14.2 L14.2,14.2 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/explore">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

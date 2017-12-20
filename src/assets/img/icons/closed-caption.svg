@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/closed-caption</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.69075431,3.36356531 C4.037316,3.30514585 3.02593514,3.7914826 3.08423607,4.97217802 L3.08423607,19.3028969 C3.01806893,20.336106 3.89316928,20.9637125 4.69075431,20.9293846 L19.0256175,20.9293846 C20.0806951,20.9555647 20.7039561,20.0633438 20.6328622,19.3028969 L20.6328622,4.97217802 C20.6876403,3.8826984 19.7890016,3.3127304 19.0256175,3.36356531 L4.69075431,3.36356531 Z M11,11 L9.5,11 L9.5,10.5 L7.5,10.5 L7.5,13.5 L9.5,13.5 L9.5,13 L11,13 L11,14 C11,14.6 10.6,15 10,15 L7,15 C6.4,15 6,14.6 6,14 L6,10 C6,9.4 6.4,9 7,9 L10,9 C10.6,9 11,9.4 11,10 L11,11 L11,11 Z M18,11 L16.5,11 L16.5,10.5 L14.5,10.5 L14.5,13.5 L16.5,13.5 L16.5,13 L18,13 L18,14 C18,14.6 17.6,15 17,15 L14,15 C13.4,15 13,14.6 13,14 L13,10 C13,9.4 13.4,9 14,9 L17,9 C17.6,9 18,9.4 18,10 L18,11 L18,11 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/closed-caption">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

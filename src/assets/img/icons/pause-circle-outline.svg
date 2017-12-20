@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/pause-circle-outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9,16 L11,16 L11,8 L9,8 L9,16 L9,16 Z M1.89970513,12 C1.89970513,17.5 6.5,22.1317066 12,22.1317066 C17.5,22.1317066 21.9669565,17.5 21.9669565,12 C21.9669565,6.5 17.5,2 12,2 C6.5,2 1.89970513,6.5 1.89970513,12 Z M3.89970513,12 C3.89970513,7.6 7.6,4 12,4 C16.4,4 19.9669565,7.6 19.9669565,12 C19.9669565,16.4 16.4,20.1317066 12,20.1317066 C7.6,20.1317066 3.89970513,16.4 3.89970513,12 Z M13,16 L15,16 L15,8 L13,8 L13,16 L13,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/pause-circle-outline">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

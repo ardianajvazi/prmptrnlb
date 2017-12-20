@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/visibility-off</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17,12 C17,12.6 16.9,13.3 16.6,13.8 L19.2490478,16.4792001 C20.7490478,15.1792001 21.8139694,13.8 22.5139694,12 C20.8139694,7.6 16.9129881,4.79484321 11.9129881,4.79484321 C10.5129881,4.79484321 9.21298813,5.09484321 7.91298813,5.49484321 L10.1,7.4 C10.7,7.1 11.4,7 12,7 C14.8,7 17,9.2 17,12 Z M4.3,6.6 L4.7,7 C3,8.3 1.97391917,10.0156167 1.27391917,12.0156167 C2.97391917,16.4156167 7,19.5 12,19.5 C13.5,19.5 15,19.2 16.4,18.7 L16.8,19.1 L19.7,22 L21,20.7 L3.3,3 L2,4.3 L4.3,6.6 Z M9,11.3 L9,12 C9,13.7 10.3,15 12,15 C12.2,15 12.4,15 12.7,14.9 L14.2,16.4 C13.5,16.8 12.8,17 12,17 C9.2,17 7,14.8 7,12 C7,11.2 7.2,10.5 7.5,9.8 L9,11.3 Z M14.9,12.1 L14.9,11.9 C14.9,10.2 13.6,8.9 11.9,8.9 C11.9,9 11.9,9 11.8,9 L14.9,12.1 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/visibility-off">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#0099D8" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
