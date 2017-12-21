@@ -1,6 +1,36 @@
 <div class="container" id="top">
-  <h1>Errors</h1>
-  <p>Errors occur when an app fails to complete an expected action</p>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Alerts</h1>
+      <p>Alerts provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Alert Example</h1>
+      <mat-card class="alerts-card">
+        <mat-card-content>
+          <p>
+            Are you sure you want to delete this?
+          </p>
+        </mat-card-content>
+        <mat-card-actions class="alerts-card-buttons">
+          <button mat-button class="flat-button">
+            Cancel
+          </button>
+          <button mat-button class="flat-button">
+            Delete
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Errors</h1>
+      <p>Errors occur when an app fails to complete an expected action</p>
+    </div>
+  </div>
   <div class="row">
     <div class="col-xs-12 col-md-6">
       <h1>Example of errors</h1>
@@ -98,11 +128,48 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6">
-      <img class="img" src="../../assets/img/test.svg" alt="Premera logo">
+    <div class="col-md-4">
+      <img class="img-responsive" src="../../assets/img/test.svg" alt="Premera logo">
     </div>
-    <div class="col-md-6">
-      <img class="img" src="../../assets/img/test2.svg" alt="Premera logo">
+    <div class="col-md-4">
+      <img class="img-responsive" src="../../assets/img/test2.svg" alt="Premera logo">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Update notification (option icon)</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alerts-optional-icons-wrap">
+        <mat-icon class="alerts-optional-icons icon-danger">warning</mat-icon>
+        <p class="alerts-optional-icons-text icon-danger">Danger</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alerts-optional-icons-wrap">
+        <mat-icon color="primary" class="alerts-optional-icons icon-information">information</mat-icon>
+        <p class="alerts-optional-icons-text icon-information">Information</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alerts-optional-icons-wrap">
+        <mat-icon color="warn" class="alerts-optional-icons icon-warning">error</mat-icon>
+        <p class="alerts-optional-icons-text icon-warning">Warning</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alerts-optional-icons-wrap">
+        <mat-icon class="alerts-optional-icons icon-success">check_circle</mat-icon>
+        <p class="alerts-optional-icons-text icon-success">Success</p>
+      </div>
     </div>
   </div>
 </div>
