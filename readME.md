@@ -82,27 +82,26 @@ Core styles like typography, materials components, theming and vendors(bootstrap
 Folder Structure
 ============================
 
-├── src                    
-│   ├── app
-│       ├── Our components x 5
-│           ├──  example.html        
-│           ├──  example.scss        
-│           └──   example.ts        
-│       ├── app-routing.module.ts           
-│       ├── app.component.scss           
-│       ├── app.component.ts           
-│       └──  app.module.ts           
-│   ├── assets  
-│       ├── img        
-│       └── scss
-│   ├── index.html               
-│   ├── main.ts               
-│   ├── polyfills.ts               
-│   └── tsconfig.app.json               
++-- src                    
+│   +-- app
+│       +-- Our components x 5
+│           +-- example.html        
+│           +-- example.scss        
+│           +-- example.ts        
+│       +--app-routing.module.ts           
+│       +--app.component.scss           
+│       +--app.component.ts           
+│       +-- app.module.ts           
+│   +-- assets  
+│       +-- img        
+│       +-- scss
+│   +-- index.html               
+│   +-- main.ts               
+│   +-- polyfills.ts               
+│   +-- tsconfig.app.json               
 └──
-├── .angular-cli.json                    
-├── .gitignore                     
-├── package.json                   
-├── tools                   
-├── readME.md
-└── tsconfig.json
++-- .angular-cli.json                    
++-- .gitignore                     
++-- package.json                 
++-- readME.md
++-- tsconfig.json
