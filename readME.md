@@ -83,8 +83,8 @@ Folder Structure
 ============================
 
 ```
-|-- src                         
-|    |-- app              
+|-- src                                             // Source folder
+|    |-- app                                        // Our App
 |    |   |-- Example                                // Parent folder of the feature you are adding.
 |    |   |   |-- example2                           // Child folder that handles features of the parent folder.
 |    |   |   |   |-- example2-component.html        // This is the HTML view that will be rendered into our view.
@@ -102,7 +102,7 @@ Folder Structure
 |    |    |   |-- example.svg                       // example imgage as .svg.
 |    |    |   |-- icons                             // Our custom icons folder.
 |    |    |       |-- example.svg                   // custom icons.
-|    |    |-- scss  // main styles folder.
+|    |    |-- scss                                  // main styles folder.
 |    |        |-- core                              // Handles the core styles coming from material design.
 |    |            |-- _typography.scss              // handles apps typograpghy.
 |    |            |-- components                    // Core styles for material design components.
@@ -113,13 +113,13 @@ Folder Structure
 |    |        |-- bootstrap.scss                    // bootstrap grid system and collape only.
 |    |        |-- style.scss                        // import all of our styles for the app.
 |    |-- index.html                                 // Our main html file where our app gets rendered.
-|    |-- main.ts                                    
-|    |-- polyfills.ts
-|    |-- tsconfig.app.json  
-|-- .angular-cli.json
-|-- .gitignore
-|-- package.json
-|-- readME.md
-|-- tsconfig.json
+|    |-- main.ts                                    // Bootstrap our app
+|    |-- polyfills.ts                               // This file includes polyfills needed by Angular 2
+|    |-- tsconfig.app.json                          // typescript compiler
+|-- .angular-cli.json                               // builds our app.
+|-- .gitignore                                      // ignores some git files
+|-- package.json                                    // all the dependencies and packages we use in our app
+|-- readME.md                                       // docs
+|-- tsconfig.json                                   // typescript compiler
 
 ```
