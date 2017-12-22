@@ -1,5 +1,5 @@
 <div class="container">
-  <h1>Wizard (contains info about stepper)</h1>
+  <h1>Wizard Stepper</h1>
   <p>Description...</p>
 
   <h2>Guidelines</h2>
@@ -8,41 +8,162 @@
   <h1>Example</h1>
 
   <div class="row">
-    <div class="col-md-6">
-      <button mat-raised-button (click)="isLinear = true" id="toggle-linear">Enable linear mode</button>
-
+    <div class="col-md-10 col-sm-6">
       <mat-horizontal-stepper [linear]="isLinear">
-        <mat-step [stepControl]="firstFormGroup">
-          <form [formGroup]="firstFormGroup">
-            <ng-template matStepLabel>Fill out your name</ng-template>
-            <mat-form-field>
-              <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
-            </mat-form-field>
-            <div>
-              <button mat-button matStepperNext>Next</button>
-            </div>
-          </form>
-        </mat-step>
-        <mat-step [stepControl]="secondFormGroup">
-          <form [formGroup]="secondFormGroup">
-            <ng-template matStepLabel>Fill out your address</ng-template>
-            <mat-form-field>
-              <input matInput placeholder="Address" formControlName="secondCtrl" required>
-            </mat-form-field>
-            <div>
-              <button mat-button matStepperPrevious>Back</button>
-              <button mat-button matStepperNext>Next</button>
-            </div>
-          </form>
+        <mat-step>
+          <ng-template matStepLabel>Date</ng-template>
+          <div class="stepper-content">
+            <h1>Enter date of Service</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In interdum convallis turpis fringilla viverra. Nam vel erat ut
+              massa dignissim dictum. Morbi ullamcorper metus vitae tortor
+              scelerisque tempor in pharetra lacus. Fusce nec maximus mauris.
+              Fusce nisl sem, finibus quis malesuada eu, tempor in lectus.
+              Aliquam erat volutpat. Aliquam varius consequat sapien suscipit lobortis.
+            </p>
+          </div>
+          <div>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
         </mat-step>
         <mat-step>
-          <ng-template matStepLabel>Done</ng-template>
-          You are now done.
+          <ng-template matStepLabel>Member</ng-template>
+          <div class="stepper-content">
+            <h1>Enter member</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In interdum convallis turpis fringilla viverra. Nam vel erat ut
+              massa dignissim dictum. Morbi ullamcorper metus vitae tortor
+              scelerisque tempor in pharetra lacus. Fusce nec maximus mauris.
+              Fusce nisl sem, finibus quis malesuada eu, tempor in lectus.
+              Aliquam erat volutpat. Aliquam varius consequat sapien suscipit lobortis.
+            </p>
+          </div>
           <div>
-            <button mat-button matStepperPrevious>Back</button>
+            <button class="secondary-raised-button" mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Attachments</ng-template>
+          <div class="stepper-content">
+            <h1>Enter attachments</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In interdum convallis turpis fringilla viverra. Nam vel erat ut
+              massa dignissim dictum. Morbi ullamcorper metus vitae tortor
+              scelerisque tempor in pharetra lacus. Fusce nec maximus mauris.
+              Fusce nisl sem, finibus quis malesuada eu, tempor in lectus.
+              Aliquam erat volutpat. Aliquam varius consequat sapien suscipit lobortis.
+            </p>
+          </div>
+          <div>
+            <button class="secondary-raised-button" mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Details</ng-template>
+          <div class="stepper-content">
+            <h1>Enter details</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In interdum convallis turpis fringilla viverra. Nam vel erat ut
+              massa dignissim dictum. Morbi ullamcorper metus vitae tortor
+              scelerisque tempor in pharetra lacus. Fusce nec maximus mauris.
+              Fusce nisl sem, finibus quis malesuada eu, tempor in lectus.
+              Aliquam erat volutpat. Aliquam varius consequat sapien suscipit lobortis.
+            </p>
+          </div>
+          <div>
+            <button class="secondary-raised-button" mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Accident</ng-template>
+          <div class="stepper-content">
+            <h1>Enter Accident</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In interdum convallis turpis fringilla viverra. Nam vel erat ut
+              massa dignissim dictum. Morbi ullamcorper metus vitae tortor
+              scelerisque tempor in pharetra lacus. Fusce nec maximus mauris.
+              Fusce nisl sem, finibus quis malesuada eu, tempor in lectus.
+              Aliquam erat volutpat. Aliquam varius consequat sapien suscipit lobortis.
+            </p>
+          </div>
+          <div>
+            <button class="secondary-raised-button" mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Review</ng-template>
+          <div class="stepper-content">
+            <h1>Review and submit</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              In interdum convallis turpis fringilla viverra. Nam vel erat ut
+              massa dignissim dictum. Morbi ullamcorper metus vitae tortor
+              scelerisque tempor in pharetra lacus. Fusce nec maximus mauris.
+              Fusce nisl sem, finibus quis malesuada eu, tempor in lectus.
+              Aliquam erat volutpat. Aliquam varius consequat sapien suscipit lobortis.
+            </p>
+          </div>
+          <div>
+            <button class="primary-raised-button" mat-raised-button>Done</button>
           </div>
         </mat-step>
       </mat-horizontal-stepper>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-sm-6">
+      <mat-vertical-stepper [linear]="isLinear">
+        <mat-step color="coral"[stepControl]="firstFormGroup">
+          <ng-template matStepLabel>Date</ng-template>
+          <div>
+            <button class="primary-raised-button" mat-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Member</ng-template>
+          <div>
+            <button mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Attachments</ng-template>
+          <div>
+            <button mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Details</ng-template>
+          <div>
+            <button mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Accident</ng-template>
+          <div>
+            <button mat-raised-button matStepperPrevious>Back</button>
+            <button class="primary-raised-button" mat-raised-button matStepperNext>Next</button>
+          </div>
+        </mat-step>
+        <mat-step>
+          <ng-template matStepLabel>Review</ng-template>
+          You are now done.
+          <div>
+            <button class="primary-raised-button" mat-raised-button>Done</button>
+          </div>
+        </mat-step>
+      </mat-vertical-stepper>
     </div>
   </div>
 </div>

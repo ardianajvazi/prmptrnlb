@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-notifications',
+    selector: 'notifications',
     templateUrl: './notifications-component.html',
     styleUrls: ['./notifications-component.scss']
 })

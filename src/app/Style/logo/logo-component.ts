@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-logo',
+    selector: 'logo',
     templateUrl: './logo-component.html',
     styleUrls: ['./logo-component.scss']
 })

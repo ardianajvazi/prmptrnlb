@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-dashSeparator',
+    selector: 'dashSeparator',
     templateUrl: './dashSeparator-component.html',
     styleUrls: ['./dashSeparator-component.scss']
 })

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-toggle',
+    selector: 'toggle',
     templateUrl: './toggle-component.html',
     styleUrls: ['./toggle-component.scss']
 })

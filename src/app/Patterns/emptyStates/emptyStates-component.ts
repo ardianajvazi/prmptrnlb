@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-emptyStates',
+    selector: 'emptyStates',
     templateUrl: './emptyStates-component.html',
     styleUrls: ['./emptyStates-component.scss']
 })

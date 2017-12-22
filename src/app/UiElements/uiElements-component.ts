@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-uiElements',
+    selector: 'uiElements',
     templateUrl: './uiElements-component.html',
     styleUrls: ['./uiElements-component.scss']
 })

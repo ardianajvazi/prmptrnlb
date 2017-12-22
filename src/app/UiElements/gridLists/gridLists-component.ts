@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-gridLists',
+    selector: 'gridLists',
     templateUrl: './gridLists-component.html',
     styleUrls: ['./gridLists-component.scss']
 })

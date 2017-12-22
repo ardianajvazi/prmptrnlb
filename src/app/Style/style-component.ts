@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-style',
+    selector: 'style',
     templateUrl: './style-component.html',
     styleUrls: ['./style-component.scss']
 })

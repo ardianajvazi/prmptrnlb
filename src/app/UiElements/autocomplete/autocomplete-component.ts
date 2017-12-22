@@ -5,7 +5,7 @@ import {startWith} from 'rxjs/operators/startWith';
 import {map} from 'rxjs/operators/map';
 
 @Component({
-    selector: 'ms-autocomplete',
+    selector: 'autocomplete',
     templateUrl: './autocomplete-component.html',
     styleUrls: ['./autocomplete-component.scss']
 })

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-datePicker',
+    selector: 'datePicker',
     templateUrl: './datePicker-component.html',
     styleUrls: ['./datePicker-component.scss']
 })

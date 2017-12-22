@@ -12,7 +12,7 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 
 
 @Component({
-    selector: 'ms-alerts',
+    selector: 'alerts',
     templateUrl: './alerts-component.html',
     styleUrls: ['./alerts-component.scss']
 })

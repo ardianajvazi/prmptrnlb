@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-toolbars',
+    selector: 'toolbars',
     templateUrl: './toolbars-component.html',
     styleUrls: ['./toolbars-component.scss']
 })

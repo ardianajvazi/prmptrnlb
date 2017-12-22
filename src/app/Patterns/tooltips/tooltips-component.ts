@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-tooltips',
+    selector: 'tooltips',
     templateUrl: './tooltips-component.html',
     styleUrls: ['./tooltips-component.scss']
 })

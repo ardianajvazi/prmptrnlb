@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {FormControl, Validators} from '@angular/forms';
 
 @Component({
-    selector: 'ms-textFields',
+    selector: 'textFields',
     templateUrl: './textFields-component.html',
     styleUrls: ['./textFields-component.scss']
 })

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-icons',
+    selector: 'icons',
     templateUrl: './icons-component.html',
     styleUrls: ['./icons-component.scss']
 })

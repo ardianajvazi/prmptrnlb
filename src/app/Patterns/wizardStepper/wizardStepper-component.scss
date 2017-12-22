@@ -1,0 +1,33 @@
+.button-container-padding {
+  padding: 20px;
+}
+
+[mat-raised-button], [mat-button] {
+  font-family: 'Roboto'!important;
+  height: 42px !important;
+}
+
+.primary-raised-button {
+  color: #fff !important;
+  background-color: #DD6162 !important;
+}
+
+.raised-button-disable {
+  color: #fff !important;
+}
+.secondary-raised-button {
+  color: #63666A !important;
+  background-color: #e0e0e0 !important;
+}
+
+.flat-button {
+  color:  #DD6162 !important;
+  background-color: #fff !important;
+}
+.flat-button-secondary {
+  color: #63666A
+}
+
+.mat-stepper-horizontal button {
+  margin: 10px 10px 10px 0px;
+}

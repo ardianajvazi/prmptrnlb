@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-guidelines',
+    selector: 'guidelines',
     templateUrl: './guidelines-component.html',
     styleUrls: ['./guidelines-component.scss']
 })

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-primeNavigation',
+    selector: 'primeNavigation',
     templateUrl: './primeNavigation-component.html',
     styleUrls: ['./primeNavigation-component.scss']
 })

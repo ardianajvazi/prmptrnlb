@@ -4,7 +4,7 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
 
 @Component({
-    selector: 'ms-dialogs',
+    selector: 'dialogs',
     templateUrl: './dialogs-component.html',
     styleUrls: ['./dialogs-component.scss']
 })

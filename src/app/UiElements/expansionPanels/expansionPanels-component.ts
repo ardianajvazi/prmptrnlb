@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-expansionPanels',
+    selector: 'expansionPanels',
     templateUrl: './expansionPanels-component.html',
     styleUrls: ['./expansionPanels-component.scss']
 })

@@ -3,7 +3,7 @@ import {MatSnackBar} from '@angular/material';
 
 
 @Component({
-    selector: 'ms-snackbars',
+    selector: 'snackbars',
     templateUrl: './snackbars-component.html',
     styleUrls: ['./snackbars-component.scss']
 })

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-writing',
+    selector: 'writing',
     templateUrl: './writing-component.html',
     styleUrls: ['./writing-component.scss']
 })

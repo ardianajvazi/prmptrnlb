@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-buttons',
+    selector: 'buttons',
     templateUrl: './buttons-component.html',
     styleUrls: ['./buttons-component.scss']
 })

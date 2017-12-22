@@ -2,7 +2,7 @@ import {Component, ViewChild} from '@angular/core';
 import {MatPaginator, MatTableDataSource} from '@angular/material';
 
 @Component({
-  selector: 'ms-dashboard',
+  selector: 'dashboard',
   templateUrl:'./home-component.html',
   styleUrls: ['./home-component.scss'],
   host: {

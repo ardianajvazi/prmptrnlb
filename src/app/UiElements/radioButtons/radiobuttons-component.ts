@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-radiobuttons',
+    selector: 'radiobuttons',
     templateUrl: './radiobuttons-component.html',
     styleUrls: ['./radiobuttons-component.scss']
 })

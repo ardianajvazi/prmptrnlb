@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-usingLibrary',
+    selector: 'usingLibrary',
     templateUrl: './usingLibrary-component.html',
     styleUrls: ['./usingLibrary-component.scss']
 })

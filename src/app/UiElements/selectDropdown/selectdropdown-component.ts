@@ -4,7 +4,7 @@ import {FormControl, Validators} from '@angular/forms';
 
 
 @Component({
-    selector: 'ms-selectdropdown',
+    selector: 'selectdropdown',
     templateUrl: './selectdropdown-component.html',
     styleUrls: ['./selectdropdown-component.scss']
 })

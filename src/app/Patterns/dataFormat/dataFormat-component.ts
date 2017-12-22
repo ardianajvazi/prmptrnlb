@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-dataFormat',
+    selector: 'dataFormat',
     templateUrl: './dataFormat-component.html',
     styleUrls: ['./dataFormat-component.scss']
 })

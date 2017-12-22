@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-tabs',
+    selector: 'tabs',
     templateUrl: './tabs-component.html',
     styleUrls: ['./tabs-component.scss']
 })

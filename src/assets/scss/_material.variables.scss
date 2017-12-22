@@ -50,6 +50,7 @@ $secondary-theme: mat-dark-theme($secondary-primary, $secondary-accent, $seconda
 // Default Theme
 @include angular-material-theme($premera-theme);
 @include mat-datepicker-theme($premera-coral);
+@include mat-stepper-theme($premera-coral);
 
 // Dark Theme
 .premera-secondary {

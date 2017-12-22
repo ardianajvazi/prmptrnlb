@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-lists',
+    selector: 'lists',
     templateUrl: './lists-component.html',
     styleUrls: ['./lists-component.scss']
 })

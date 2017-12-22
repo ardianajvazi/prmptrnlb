@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-accessibility',
+    selector: 'accessibility',
     templateUrl: './accessibility-component.html',
     styleUrls: ['./accessibility-component.scss']
 })

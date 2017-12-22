@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-forWho',
+    selector: 'forWho',
     templateUrl: './forWho-component.html',
     styleUrls: ['./forWho-component.scss']
 })

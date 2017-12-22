@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-checkboxes',
+    selector: 'checkboxes',
     templateUrl: './checkboxes-component.html',
     styleUrls: ['./checkboxes-component.scss']
 })

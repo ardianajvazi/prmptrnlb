@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-pageLayouts',
+    selector: 'pageLayouts',
     templateUrl: './pageLayouts-component.html',
     styleUrls: ['./pageLayouts-component.scss']
 })

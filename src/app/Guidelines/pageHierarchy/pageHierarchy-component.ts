@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-pageHierarchy',
+    selector: 'pageHierarchy',
     templateUrl: './pageHierarchy-component.html',
     styleUrls: ['./pageHierarchy-component.scss']
 })

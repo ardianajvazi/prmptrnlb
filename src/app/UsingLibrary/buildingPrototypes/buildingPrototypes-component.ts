@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-buildingPrototypes',
+    selector: 'buildingPrototypes',
     templateUrl: './buildingPrototypes-component.html',
     styleUrls: ['./buildingPrototypes-component.scss']
 })

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-voiceTone',
+    selector: 'voiceTone',
     templateUrl: './voiceTone-component.html',
     styleUrls: ['./voiceTone-component.scss']
 })

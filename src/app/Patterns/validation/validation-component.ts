@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 
 @Component({
-    selector: 'ms-validation',
+    selector: 'validation',
     templateUrl: './validation-component.html',
     styleUrls: ['./validation-component.scss']
 })
