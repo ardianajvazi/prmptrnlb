@@ -85,35 +85,35 @@ Folder Structure
 ```
 |-- src                         
 |    |-- app              
-|    |   |-- Example
-|    |   |   |-- example2
-|    |   |   |   |-- example2-component.html
-|    |   |   |   |-- example2-component.scss
-|    |   |   |   |-- example2-component.ts
-|    |   |   |-- example-component.html
-|    |   |   |-- example-component.scss
-|    |   |   |-- example-component.ts
-|    |   |-- app-routing.module.ts
-|    |   |-- app.component.scss
-|    |   |-- app.component.ts
-|    |   |-- app.module.ts
-|    |-- assets
-|    |    |-- img
-|    |    |   |-- example.svg
-|    |    |   |-- icons
-|    |    |       |-- example.svg
-|    |    |-- scss
-|    |        |-- _app.variables.scss
-|    |        |-- _core.scss
-|    |        |-- _material.variables.scss
-|    |        |-- bootstrap.scss
-|    |        |-- style.scss
-|    |        |-- core
-|    |            |-- _typography.scss
-|    |            |-- components
-|    |                |-- componets.scss
-|    |-- index.html
-|    |-- main.ts
+|    |   |-- Example                                // Parent folder of the feature you are adding.
+|    |   |   |-- example2                           // Child folder that handles features of the parent folder.
+|    |   |   |   |-- example2-component.html        // This is the HTML view that will be rendered into our view.
+|    |   |   |   |-- example2-component.scss        // This is the SCSS file that will handle the styles for our HTML.
+|    |   |   |   |-- example2-component.ts          // This is where we will handle the typescript for this component.
+|    |   |   |-- example-component.html             // This is the parent HTML.
+|    |   |   |-- example-component.scss             // This is the parent SCSS.
+|    |   |   |-- example-component.ts               // This is the parent typescript.
+|    |   |-- app-routing.module.ts                  // This is where we import our component and route it to a path(url).
+|    |   |-- app.component.scss                     // This is the SCSS for the main app.component.ts file.
+|    |   |-- app.component.ts                       // Where our nav lives and views get loaded in <router-outlet>.
+|    |   |-- app.module.ts                          // Our components so we can use them throughout the app.
+|    |-- assets                                     // Our main folder for our images and core scss.
+|    |    |-- img                                   // Our images folder.
+|    |    |   |-- example.svg                       // example imgage as .svg.
+|    |    |   |-- icons                             // Our custom icons folder.
+|    |    |       |-- example.svg                   // custom icons.
+|    |    |-- scss  // main styles folder.
+|    |        |-- core                              // Handles the core styles coming from material design.
+|    |            |-- _typography.scss              // handles apps typograpghy.
+|    |            |-- components                    // Core styles for material design components.
+|    |                |-- button.scss               // component style for material design.
+|    |        |-- _app.variables.scss               // can be used to set scss variables.
+|    |        |-- _core.scss                        // imports the core styles.
+|    |        |-- _material.variables.scss          // this is the theme for our app.
+|    |        |-- bootstrap.scss                    // bootstrap grid system and collape only.
+|    |        |-- style.scss                        // import all of our styles for the app.
+|    |-- index.html                                 // Our main html file where our app gets rendered.
+|    |-- main.ts                                    
 |    |-- polyfills.ts
 |    |-- tsconfig.app.json  
 |-- .angular-cli.json
