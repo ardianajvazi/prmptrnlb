@@ -82,4 +82,45 @@ Core styles like typography, materials components, theming and vendors(bootstrap
 Folder Structure
 ============================
 
-Coming soon 
+```
+|-- src
+|    |-- app
+|    |   |-- app-routing.module.ts
+|    |   |-- app.component.scss
+|    |   |-- app.component.ts
+|    |   |-- app.module.ts
+|    |   |-- Example
+|    |   |   |-- example2
+|    |   |   |   |-- example2-component.html
+|    |   |   |   |-- example2-component.scss
+|    |   |   |   |-- example2-component.ts
+|    |   |   |-- example-component.html
+|    |   |   |-- example-component.scss
+|    |   |   |-- example-component.ts
+|    |-- assets
+|    |    |-- img
+|    |    |   |-- example.svg
+|    |    |   |-- icons
+|    |    |       |-- example.svg
+|    |    |-- scss
+|    |        |-- _app.variables.scss
+|    |        |-- _core.scss
+|    |        |-- _material.variables.scss
+|    |        |-- bootstrap.scss
+|    |        |-- style.scss
+|    |        |-- core
+|    |            |-- _typography.scss
+|    |            |-- components
+|    |                |-- lists.scss
+|    |                |-- stepper.scss
+|    |-- index.html
+|    |-- main.ts
+|    |-- polyfills.ts
+|    |-- tsconfig.app.json
+|    
+|-- .angular-cli.json
+|-- .gitignore
+|-- package.json
+|-- readME.md
+|-- tsconfig.json
+```
