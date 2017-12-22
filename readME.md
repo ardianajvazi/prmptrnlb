@@ -83,22 +83,22 @@ Folder Structure
 ============================
 
 |-- src                    
-    |-- app
-        |-- Our components x 5
-            |-- example.html        
-            |-- example.scss        
-            |-- example.ts        
-        |--app-routing.module.ts           
-        |--app.component.scss           
-        |--app.component.ts           
-        |-- app.module.ts           
-    |-- assets  
-        |-- img        
-        |-- scss
-    |-- index.html               
-    |-- main.ts               
-    |-- polyfills.ts               
-    |-- tsconfig.app.json               
+│   |-- app
+│       |-- Our components x 5
+│           |-- example.html        
+│           |-- example.scss        
+│           |-- example.ts        
+│       |--app-routing.module.ts           
+│       |--app.component.scss           
+│       |--app.component.ts           
+│       |-- app.module.ts           
+│   |-- assets  
+│       |-- img        
+│       |-- scss
+│   |-- index.html               
+│   |-- main.ts               
+│   |-- polyfills.ts               
+│   |-- tsconfig.app.json               
 └──
 |-- .angular-cli.json                    
 |-- .gitignore                     
