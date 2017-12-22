@@ -83,12 +83,8 @@ Folder Structure
 ============================
 
 ```
-|-- src
-|    |-- app
-|    |   |-- app-routing.module.ts
-|    |   |-- app.component.scss
-|    |   |-- app.component.ts
-|    |   |-- app.module.ts
+|-- src                         
+|    |-- app              
 |    |   |-- Example
 |    |   |   |-- example2
 |    |   |   |   |-- example2-component.html
@@ -97,6 +93,10 @@ Folder Structure
 |    |   |   |-- example-component.html
 |    |   |   |-- example-component.scss
 |    |   |   |-- example-component.ts
+|    |   |-- app-routing.module.ts
+|    |   |-- app.component.scss
+|    |   |-- app.component.ts
+|    |   |-- app.module.ts
 |    |-- assets
 |    |    |-- img
 |    |    |   |-- example.svg
@@ -111,16 +111,15 @@ Folder Structure
 |    |        |-- core
 |    |            |-- _typography.scss
 |    |            |-- components
-|    |                |-- lists.scss
-|    |                |-- stepper.scss
+|    |                |-- componets.scss
 |    |-- index.html
 |    |-- main.ts
 |    |-- polyfills.ts
-|    |-- tsconfig.app.json
-|    
+|    |-- tsconfig.app.json  
 |-- .angular-cli.json
 |-- .gitignore
 |-- package.json
 |-- readME.md
 |-- tsconfig.json
+
 ```
